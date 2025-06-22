@@ -24,6 +24,9 @@ This vault contains the **foundational modular blocks** required to build a full
 ## 📁 File Structure
 
 All blocks live in:
+- **Block folders**: `/data/blocks/{primary|subject|instruction|philosophy|trigger|directive|blueprint|merge|off}/`
+- **Index file**: `/data/block_index.json`
+- **Schema reference**: [docs/schema_reference.md](docs/schema_reference.md)
 
 ```
 /data/blocks/[category]/
