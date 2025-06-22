@@ -1,13 +1,32 @@
-{{
-  "blocks": [
-      {
-    "block_id": "bolt_color_sleeve_stack",
-    "title": "BOLT Color Sleeve Stack",
-    "type": "chatbot",
-    "subtype": "prompt",
-    "path": "/public/umg_blocks/chatbot/bolt_color_sleeve_stack.json",
-    "molt_type": "Primary",
-    "version": "1.0.0"
+[
+  {
+    "block_id": "product_launch_plan",
+    "label": "Product Launch Plan",
+    "category": "business/plan",
+    "molt_type": "Primary"
+  },
+  {
+    "block_id": "swot_analysis",
+    "label": "SWOT Analysis",
+    "category": "business/plan",
+    "molt_type": "Subject"
+  },
+  {
+    "block_id": "gtm_strategy",
+    "label": "Go-To-Market Strategy",
+    "category": "business/plan",
+    "molt_type": "Instruction"
+  },
+  {
+    "block_id": "blueprint_branding",
+    "label": "Brand Style Guide",
+    "category": "blueprint",
+    "molt_type": "Blueprint"
+  },
+  {
+    "block_id": "regen_ethics",
+    "label": "Philosophy: Regenerative Ethics",
+    "category": "philosophy",
+    "molt_type": "Philosophy"
   }
-  ]
-}
+]
