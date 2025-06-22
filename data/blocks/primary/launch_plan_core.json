@@ -1,0 +1,26 @@
+{
+  "block_id": "launch_plan_core",
+  "label": "Product Launch Plan",
+  "molt_type": "Primary",
+  "category": "startup",
+  "editable_fields": {
+    "content": "Plan the launch of an AI-driven product in 3 stages.",
+    "style": "structured",
+    "behavior": "timeline"
+  },
+  "bolt_ready": true,
+  "snap_config": { "snap_zone": "bottom", "priority": 1 },
+  "runtime_behavior_flags": { "is_active": true, "is_primary_directive": true },
+  "canto_overlay": { "snap_to": [], "fit_score": 1.0, "category_code": "PRI" },
+  "cantocore": "GOAL=LAUNCH, DOMAIN=STARTUP, STYLE=PHASED",
+  "cyentcore": {
+    "type": "Primary",
+    "content": "GOAL=LAUNCH, DOMAIN=STARTUP, STYLE=PHASED"
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
