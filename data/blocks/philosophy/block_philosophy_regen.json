@@ -1,0 +1,39 @@
+{
+  "block_id": "regen_ethics",
+  "label": "Philosophy: Regenerative Ethics",
+  "category": "philosophy/ethics",
+  "description": "All decisions should respect ecological balance and social impact.",
+  "molt_type": "Philosophy",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt"
+  ],
+  "snap_config": {
+    "snap_zone": "right",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true,
+    "philosophy_constraint_applied": true
+  },
+  "canto_overlay": {
+    "category_code": "PHIL",
+    "snap_to": [
+      "Primary",
+      "Blueprint"
+    ],
+    "fit_score": 0.88
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
