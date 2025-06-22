@@ -1,0 +1,31 @@
+{
+  "vault_id": "citadel_minimal_canon",
+  "description": "This vault contains the foundational UMG blocks required for a Bolt-ready modular launch plan.",
+  "blocks": [
+    {
+      "block_id": "product_launch_plan",
+      "molt_type": "Primary",
+      "category": "business/plan"
+    },
+    {
+      "block_id": "swot_analysis",
+      "molt_type": "Subject",
+      "category": "business/plan"
+    },
+    {
+      "block_id": "gtm_strategy",
+      "molt_type": "Instruction",
+      "category": "business/plan"
+    },
+    {
+      "block_id": "blueprint_branding",
+      "molt_type": "Blueprint",
+      "category": "blueprint"
+    },
+    {
+      "block_id": "regen_ethics",
+      "molt_type": "Philosophy",
+      "category": "philosophy"
+    }
+  ]
+}
