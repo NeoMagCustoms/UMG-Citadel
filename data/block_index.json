@@ -1,3 +1,13 @@
 {{
-  "blocks": []
+  "blocks": [
+      {
+    "block_id": "bolt_color_sleeve_stack",
+    "title": "BOLT Color Sleeve Stack",
+    "type": "chatbot",
+    "subtype": "prompt",
+    "path": "/public/umg_blocks/chatbot/bolt_color_sleeve_stack.json",
+    "molt_type": "Primary",
+    "version": "1.0.0"
+  }
+  ]
 }
