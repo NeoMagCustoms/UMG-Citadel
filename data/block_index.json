@@ -27,6 +27,49 @@
     "block_id": "regen_ethics",
     "label": "Philosophy: Regenerative Ethics",
     "category": "philosophy",
-    "molt_type": "Philosophy"
+   ,
+{
+  "block_id": "example_primary",
+  "label": "Example Primary Block",
+  "category": "primary",
+  "molt_type": "Primary"
+},
+{
+  "block_id": "example_subject",
+  "label": "Example Subject Block",
+  "category": "subject",
+  "molt_type": "Subject"
+},
+{
+  "block_id": "example_instruction",
+  "label": "Example Instruction Block",
+  "category": "instruction",
+  "molt_type": "Instruction"
+},
+{
+  "block_id": "example_trigger",
+  "label": "Example Trigger Block",
+  "category": "trigger",
+  "molt_type": "Trigger"
+},
+{
+  "block_id": "example_directive",
+  "label": "Example Directive Block",
+  "category": "directive",
+  "molt_type": "Directive"
+},
+{
+  "block_id": "example_merge",
+  "label": "Example Merge Block",
+  "category": "merge",
+  "molt_type": "Merge"
+},
+{
+  "block_id": "example_off",
+  "label": "Example Off Block",
+  "category": "off",
+  "molt_type": "Off"
+}
+ "m]
   }
 ]
