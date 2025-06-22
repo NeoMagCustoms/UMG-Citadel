@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "title": "Example Project",
+    "author": "Magnetar Starheart",
+    "version": "0.1.0",
+    "description": "Demonstration vault for UMG Citadel"
+  },
+  "blocks": [
+    {
+      "id": "example-hero",
+      "type": "website",
+      "molt": "Primary",
+      "title": "Hero Section",
+      "description": "Basic hero block",
+      "fields": {
+        "headline": "Welcome to Citadel",
+        "subhead": "Building modular apps with ease"
+      }
+    }
+  ],
+  "sleeves": [],
+  "exportConfig": {
+    "format": "html",
+    "theme": "default"
+  }
+}
