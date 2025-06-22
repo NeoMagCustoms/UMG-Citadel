@@ -1,0 +1,26 @@
+{
+  "block_id": "direct_growth_mode",
+  "label": "Growth Mode Directive",
+  "molt_type": "Directive",
+  "category": "strategy",
+  "editable_fields": {
+    "mode": "aggressive",
+    "budget": "increase",
+    "timeline": "Q3"
+  },
+  "bolt_ready": true,
+  "snap_config": { "snap_zone": "directive", "priority": 6 },
+  "runtime_behavior_flags": { "is_active": true },
+  "canto_overlay": { "snap_to": ["launch_plan_core"], "fit_score": 0.9, "category_code": "DIR" },
+  "cantocore": "MODE=GROWTH, INTENSITY=HIGH, PERIOD=Q3",
+  "cyentcore": {
+    "type": "Directive",
+    "content": "MODE=GROWTH, INTENSITY=HIGH, PERIOD=Q3"
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
