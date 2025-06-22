@@ -1,0 +1,25 @@
+{
+  "block_id": "off_unused_copy_block",
+  "label": "Unused Copy Block",
+  "molt_type": "Off",
+  "category": "archived",
+  "editable_fields": {
+    "note": "Deprecated copy content",
+    "reason": "Superseded by new messaging"
+  },
+  "bolt_ready": false,
+  "snap_config": { "snap_zone": "none", "priority": 9 },
+  "runtime_behavior_flags": { "is_active": false },
+  "canto_overlay": { "snap_to": [], "fit_score": 0.2, "category_code": "OFF" },
+  "cantocore": "STATUS=DEPRECATED",
+  "cyentcore": {
+    "type": "Off",
+    "content": "STATUS=DEPRECATED"
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
