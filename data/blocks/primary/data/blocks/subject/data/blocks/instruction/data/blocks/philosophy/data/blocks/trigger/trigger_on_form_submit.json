@@ -1,0 +1,26 @@
+{
+  "block_id": "trigger_on_form_submit",
+  "label": "On Form Submit Trigger",
+  "molt_type": "Trigger",
+  "category": "webhook",
+  "editable_fields": {
+    "event": "form_submit",
+    "target": "lead_capture",
+    "cooldown": "0s"
+  },
+  "bolt_ready": true,
+  "snap_config": { "snap_zone": "event", "priority": 5 },
+  "runtime_behavior_flags": { "is_active": true, "fires_once": true },
+  "canto_overlay": { "snap_to": ["instr_generate_pitch"], "fit_score": 0.8, "category_code": "TRI" },
+  "cantocore": "EVENT=FORM_SUBMIT, ACTION=GENERATE_PITCH",
+  "cyentcore": {
+    "type": "Trigger",
+    "content": "EVENT=FORM_SUBMIT, ACTION=GENERATE_PITCH"
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
