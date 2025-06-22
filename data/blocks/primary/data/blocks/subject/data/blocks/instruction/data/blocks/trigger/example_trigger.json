@@ -1,0 +1,12 @@
+{
+  "id": "example_trigger",
+  "type": "business",
+  "molt": "Trigger",
+  "title": "Example Trigger Block",
+  "description": "Scaffold placeholder for Trigger molt_type.",
+  "fields": {},
+  "logic": {},
+  "snap": {},
+  "merge": {},
+  "inject": {}
+}
