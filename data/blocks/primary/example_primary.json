@@ -1,0 +1,12 @@
+{
+  "id": "example_primary",
+  "type": "business",
+  "molt": "Primary",
+  "title": "Example Primary Block",
+  "description": "Scaffold placeholder for Primary molt_type.",
+  "fields": {},
+  "logic": {},
+  "snap": {},
+  "merge": {},
+  "inject": {}
+}
