@@ -1,0 +1,12 @@
+{
+  "id": "example_directive",
+  "type": "business",
+  "molt": "Directive",
+  "title": "Example Directive Block",
+  "description": "Scaffold placeholder for Directive molt_type.",
+  "fields": {},
+  "logic": {},
+  "snap": {},
+  "merge": {},
+  "inject": {}
+}
