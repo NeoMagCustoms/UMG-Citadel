@@ -1,0 +1,12 @@
+{
+  "id": "example_instruction",
+  "type": "business",
+  "molt": "Instruction",
+  "title": "Example Instruction Block",
+  "description": "Scaffold placeholder for Instruction molt_type.",
+  "fields": {},
+  "logic": {},
+  "snap": {},
+  "merge": {},
+  "inject": {}
+}
