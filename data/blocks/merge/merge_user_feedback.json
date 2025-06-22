@@ -1,0 +1,26 @@
+{
+  "block_id": "merge_user_feedback",
+  "label": "Merge User Feedback",
+  "molt_type": "Merge",
+  "category": "feedback",
+  "editable_fields": {
+    "source": "surveys",
+    "merge_strategy": "append",
+    "priority": "medium"
+  },
+  "bolt_ready": true,
+  "snap_config": { "snap_zone": "merge", "priority": 8 },
+  "runtime_behavior_flags": { "is_active": true },
+  "canto_overlay": { "snap_to": ["trigger_on_form_submit"], "fit_score": 0.82, "category_code": "MER" },
+  "cantocore": "SOURCE=SURVEY, STRATEGY=APPEND",
+  "cyentcore": {
+    "type": "Merge",
+    "content": "SOURCE=SURVEY, STRATEGY=APPEND"
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
