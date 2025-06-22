@@ -1,0 +1,26 @@
+{
+  "block_id": "domain_ai_startup",
+  "label": "AI Startup Domain Focus",
+  "molt_type": "Subject",
+  "category": "startup",
+  "editable_fields": {
+    "domain": "Artificial Intelligence",
+    "focus": "Product-led growth",
+    "market": "Global"
+  },
+  "bolt_ready": true,
+  "snap_config": { "snap_zone": "top", "priority": 2 },
+  "runtime_behavior_flags": { "is_active": true },
+  "canto_overlay": { "snap_to": ["launch_plan_core"], "fit_score": 0.9, "category_code": "SUB" },
+  "cantocore": "DOMAIN=AI, STAGE=EARLY, FOCUS=PLG",
+  "cyentcore": {
+    "type": "Subject",
+    "content": "DOMAIN=AI, STAGE=EARLY, FOCUS=PLG"
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
