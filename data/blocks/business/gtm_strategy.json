@@ -1,0 +1,40 @@
+{
+  "block_id": "gtm_strategy",
+  "label": "Go-To-Market Strategy",
+  "category": "business/strategy",
+  "description": "Defines launch channels, audience segments, and sales tactics.",
+  "molt_type": "Instruction",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt"
+  ],
+  "snap_config": {
+    "snap_zone": "right",
+    "mergeable_with": [
+      "blueprint_branding"
+    ],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "INST",
+    "snap_to": [
+      "Primary",
+      "Subject"
+    ],
+    "fit_score": 0.9
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
