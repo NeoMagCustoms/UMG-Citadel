@@ -1,0 +1,3 @@
+# SESSION CONTEXT
+
+Document placeholder.
