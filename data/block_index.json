@@ -1,75 +1,56 @@
 [
   {
-    "block_id": "product_launch_plan",
+    "block_id": "launch_plan_core",
     "label": "Product Launch Plan",
-    "category": "business/plan",
+    "category": "startup",
     "molt_type": "Primary"
   },
   {
-    "block_id": "swot_analysis",
-    "label": "SWOT Analysis",
-    "category": "business/plan",
+    "block_id": "domain_ai_startup",
+    "label": "AI Startup Domain Focus",
+    "category": "startup",
     "molt_type": "Subject"
   },
   {
-    "block_id": "gtm_strategy",
-    "label": "Go-To-Market Strategy",
-    "category": "business/plan",
+    "block_id": "instr_generate_pitch",
+    "label": "Generate Investor Pitch",
+    "category": "pitch",
     "molt_type": "Instruction"
   },
   {
-    "block_id": "blueprint_branding",
-    "label": "Brand Style Guide",
-    "category": "blueprint",
+    "block_id": "philo_user_empathy",
+    "label": "User Empathy Philosophy",
+    "category": "values",
+    "molt_type": "Philosophy"
+  },
+  {
+    "block_id": "trigger_on_form_submit",
+    "label": "On Form Submit Trigger",
+    "category": "webhook",
+    "molt_type": "Trigger"
+  },
+  {
+    "block_id": "direct_growth_mode",
+    "label": "Growth Mode Directive",
+    "category": "strategy",
+    "molt_type": "Directive"
+  },
+  {
+    "block_id": "bp_slide_format",
+    "label": "Pitch Slide Format",
+    "category": "presentation",
     "molt_type": "Blueprint"
   },
   {
-    "block_id": "regen_ethics",
-    "label": "Philosophy: Regenerative Ethics",
-    "category": "philosophy",
-   ,
-{
-  "block_id": "example_primary",
-  "label": "Example Primary Block",
-  "category": "primary",
-  "molt_type": "Primary"
-},
-{
-  "block_id": "example_subject",
-  "label": "Example Subject Block",
-  "category": "subject",
-  "molt_type": "Subject"
-},
-{
-  "block_id": "example_instruction",
-  "label": "Example Instruction Block",
-  "category": "instruction",
-  "molt_type": "Instruction"
-},
-{
-  "block_id": "example_trigger",
-  "label": "Example Trigger Block",
-  "category": "trigger",
-  "molt_type": "Trigger"
-},
-{
-  "block_id": "example_directive",
-  "label": "Example Directive Block",
-  "category": "directive",
-  "molt_type": "Directive"
-},
-{
-  "block_id": "example_merge",
-  "label": "Example Merge Block",
-  "category": "merge",
-  "molt_type": "Merge"
-},
-{
-  "block_id": "example_off",
-  "label": "Example Off Block",
-  "category": "off",
-  "molt_type": "Off"
-}
- "m]
+    "block_id": "merge_user_feedback",
+    "label": "Merge User Feedback",
+    "category": "feedback",
+    "molt_type": "Merge"
+  },
+  {
+    "block_id": "off_placeholder_block",
+    "label": "Placeholder Off Block",
+    "category": "archived",
+    "molt_type": "Off"
   }
 ]
