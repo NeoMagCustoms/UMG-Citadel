@@ -1,0 +1,33 @@
+{
+  "block_id": "cost_analysis",
+  "label": "Cost Analysis",
+  "category": "finance/forecasts_analysis",
+  "description": "Breakdown of fixed, variable, and unit costs",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": ["bolt", "pdf"],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": ["primary", "instruction"],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "FIN_FORECAST",
+    "snap_to": ["Primary"],
+    "fit_score": 0.91
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
