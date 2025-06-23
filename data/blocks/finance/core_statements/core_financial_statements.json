@@ -1,0 +1,127 @@
+Skip to content
+Navigation Menu
+NeoMagCustoms
+UMG-Citadel
+
+Type / to search
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+Files
+Go to file
+t
+business content loaded
+data
+blocks
+blueprint
+business
+10_training
+11_embedded_reports
+1_plans
+2_financials
+3_tax_compliance
+4_investor_docs
+5_operations
+6_marketing
+7_legal
+8_hr
+9_projects
+embedded_reports
+primary_plans
+subtypes
+gtm_strategy.json
+product_launch_plan.json
+swot_analysis.json
+directive
+.gitkeep
+direct_growth_mode.json
+finance/core_statements
+balance_sheet.json
+cash_flow_statement.json
+profit_and_loss_statement.json
+instruction
+merge
+off
+philosophy
+primary
+subject
+trigger
+.gitkeep
+trigger_on_form_submit.json
+project_templates
+sleeve_presets
+bolt_color_sleeve_stack.json
+vaults
+block_index.json
+docs
+public
+public
+icons
+public/umg_blocks/chatbot
+umg_blocks/website
+.gitkeep
+umg_blocks
+business
+embedded_reports
+financial_reports
+balance_sheet.json
+cash_flow_statement.json
+core_financial_statements.json
+profit_and_loss_statement.json
+subtypes
+..gitkeep
+blueprint_branding.json
+chatbot
+src
+.gitignore
+LICENSE
+README.md
+Standard UMG Citadel Repository Scaffold.pdf
+UMG-Citadel/public/umg_blocks/business/financial_reports
+/core_financial_statements.json
+NeoMagCustoms
+NeoMagCustoms
+Create core_financial_statements.json
+f0d4a28
+ · 
+25 minutes ago
+
+Code
+
+Blame
+29 lines (29 loc) · 875 Bytes
+{
+  "block_name": "Core Financial Statements",
+  "block_type": "business",
+  "block_subtype": "financial_reports",
+  "category": "Core Financial Statements",
+  "description": "The holy trinity of business finance: Profit and Loss Statement, Balance Sheet, Cash Flow Statement.",
+  "documents": [
+    {
+      "name": "Profit and Loss Statement",
+      "description": "Income, expenses, and net profit over time",
+      "file": "profit_and_loss_statement.json"
+    },
+    {
+      "name": "Balance Sheet",
+      "description": "Assets, liabilities, and equity snapshot",
+      "file": "balance_sheet.json"
+    },
+    {
+      "name": "Cash Flow Statement",
+      "description": "Inflows/outflows of cash, liquidity tracker",
+      "file": "cash_flow_statement.json"
+    }
+  ],
+  "style": {
+    "base_color": "Blue"
+  },
+  "version": "1.0.0",
+  "schema_version": "UMG_SPEC_1.0"
+}
+UMG-Citadel/public/umg_blocks/business/financial_reports/core_financial_statements.json at main · NeoMagCustoms/UMG-Citadel
