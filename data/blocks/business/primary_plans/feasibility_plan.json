@@ -1,0 +1,33 @@
+{
+  "block_id": "feasibility_plan",
+  "label": "Feasibility Plan",
+  "category": "business/plan",
+  "description": "Evaluates whether an idea is viable and worth pursuing.",
+  "molt_type": "Primary",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": ["bolt", "pdf"],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": ["swot_analysis", "gtm_strategy"],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true,
+    "is_primary_directive": true
+  },
+  "canto_overlay": {
+    "category_code": "PLAN",
+    "snap_to": ["Subject", "Instruction"],
+    "fit_score": 0.93
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO"
+  }
+}
