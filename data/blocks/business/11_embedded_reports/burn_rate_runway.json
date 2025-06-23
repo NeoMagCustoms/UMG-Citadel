@@ -1,0 +1,32 @@
+{
+  "block_id": "burn_rate_runway",
+  "label": "Burn Rate Runway",
+  "category": "finance/embedded",
+  "description": "Embedded financial section typically used in: Startup and SaaS Plans",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": ["bolt", "pdf"],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "snap_to": ["Primary"],
+    "fit_score": 0.95
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
