@@ -1,0 +1,33 @@
+{
+  "block_id": "tam_sam_som",
+  "label": "Tam Sam Som",
+  "category": "business/embedded_reports",
+  "description": "Market size segmentation",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": ["bolt", "pdf"],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": ["primary", "instruction"],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "REPORT",
+    "snap_to": ["Primary"],
+    "fit_score": 0.91
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
