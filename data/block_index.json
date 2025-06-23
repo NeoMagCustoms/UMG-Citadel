@@ -51,6 +51,31 @@
     "block_id": "off_placeholder_block",
     "label": "Placeholder Off Block",
     "category": "archived",
-    "molt_type": "Off"
+  ,
+  {
+    "block_id": "core_financial_statements",
+    "label": "Core Financial Statements",
+    "category": "financial_reports",
+    "molt_type": "Primary"
+  },
+  {
+    "block_id": "profit_and_loss_statement",
+    "label": "Profit and Loss Statement",
+    "category": "financial_reports",
+    "molt_type": "Subject"
+  },
+  {
+    "block_id": "balance_sheet",
+    "label": "Balance Sheet",
+    "category": "financial_reports",
+    "molt_type": "Subject"
+  },
+  {
+    "block_id": "cash_flow_statement",
+    "label": "Cash Flow Statement",
+    "category": "financial_reports",
+    "molt_type": "Subject"
+  }  
+  ]"
   }
 ]
