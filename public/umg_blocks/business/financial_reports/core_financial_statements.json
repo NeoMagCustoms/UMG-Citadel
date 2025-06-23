@@ -1,0 +1,29 @@
+{
+  "block_name": "Core Financial Statements",
+  "block_type": "business",
+  "block_subtype": "financial_reports",
+  "category": "Core Financial Statements",
+  "description": "The holy trinity of business finance: Profit and Loss Statement, Balance Sheet, Cash Flow Statement.",
+  "documents": [
+    {
+      "name": "Profit and Loss Statement",
+      "description": "Income, expenses, and net profit over time",
+      "file": "profit_and_loss_statement.json"
+    },
+    {
+      "name": "Balance Sheet",
+      "description": "Assets, liabilities, and equity snapshot",
+      "file": "balance_sheet.json"
+    },
+    {
+      "name": "Cash Flow Statement",
+      "description": "Inflows/outflows of cash, liquidity tracker",
+      "file": "cash_flow_statement.json"
+    }
+  ],
+  "style": {
+    "base_color": "Blue"
+  },
+  "version": "1.0.0",
+  "schema_version": "UMG_SPEC_1.0"
+}
