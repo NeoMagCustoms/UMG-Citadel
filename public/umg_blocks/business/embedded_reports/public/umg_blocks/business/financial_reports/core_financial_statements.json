@@ -1,0 +1,37 @@
+{
+  "block_id": "core_financial_statements",
+  "label": "Core Financial Statements",
+  "category": "business/financial_reports",
+  "description": "Canonical reports: Profit & Loss, Balance Sheet, Cash Flow.",
+  "molt_type": "Primary",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": ["bolt", "pdf"],
+  "snap_config": {
+    "snap_zone": ["top"],
+    "mergeable_with": ["subject", "instruction"],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "FIN",
+    "snap_to": ["Subject"],
+    "fit_score": 0.95
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "UoMG",
+    "created_at": "AUTO",
+    "field_log": []
+  },
+  "export_config": {
+    "format": ["html", "json"],
+    "include_snapshots": true
+  }
+}
