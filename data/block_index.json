@@ -75,7 +75,58 @@
     "label": "Cash Flow Statement",
     "category": "financial_reports",
     "molt_type": "Subject"
-  }  
+  ,
+  {
+    "block_id": "financial_forecast",
+    "label": "Financial Forecast",
+    "category": "forecasts_analysis",
+    "molt_type": "Subject"
+  },
+  {
+    "block_id": "break_even_analysis",
+    "label": "Break Even Analysis",
+    "category": "forecasts_analysis",
+    "molt_type": "Subject"
+  },
+  {
+    "block_id": "budget_forecast",
+    "label": "Budget Forecast",
+    "category": "forecasts_analysis",
+    "molt_type": "Subject"
+  },
+  {
+    "block_id": "sales_forecast",
+    "label": "Sales Forecast",
+    "category": "forecasts_analysis",
+    "molt_type": "Subject"
+  },
+  {
+    "block_id": "cost_analysis",
+    "label": "Cost Analysis",
+    "category": "forecasts_analysis",
+    "molt_type": "Subject"
+  },
+  {
+    "block_id": "pricing_strategy_report",
+    "label": "Pricing Strategy Report",
+    "category": "forecasts_analysis",
+    "molt_type": "Subject"
+  },
+  {
+    "block_id": "unit_economics_report",
+    "label": "Unit Economics Report",
+    "category": "forecasts_analysis",
+    "molt_type": "Subject"
+  },
+  {
+    "block_id": "revenue_model_diagram",
+    "label": "Revenue Model Diagram",
+    "category": "forecasts_analysis",
+    "molt_type": "Subject"
+  
+  ]
+}
+}  
   ]"
   }
 ]
