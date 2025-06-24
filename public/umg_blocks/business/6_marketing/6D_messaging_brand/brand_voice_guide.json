@@ -1,0 +1,40 @@
+{
+  "block_id": "brand_voice_guide",
+  "label": "Brand Voice Guide",
+  "category": "business/6_marketing/6D_messaging_brand",
+  "description": "Tone, word choice, taboos, dialect preferences",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Tone, word choice, taboos, dialect preferences",
+    "style": "verbal + modular",
+    "behavior": "documentation_block"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "MK6D6E",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=DEFINE, DOMAIN=MARKETING, STYLE=VERBAL",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
