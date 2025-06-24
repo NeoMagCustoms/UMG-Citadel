@@ -1,0 +1,40 @@
+{
+  "block_id": "meta_title_tags",
+  "label": "Meta / Title Tag Manager",
+  "category": "webapp/1E_performance_seo",
+  "description": "SEO-relevant page titles and OG tags",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "SEO-relevant page titles and OG tags",
+    "style": "frontend + modular",
+    "behavior": "ui_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "WEBAPP1",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=RENDER, DOMAIN=FRONTEND, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
