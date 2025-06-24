@@ -1,0 +1,40 @@
+{
+  "block_id": "optimistic_submission",
+  "label": "Optimistic vs Confirmed Submission",
+  "category": "forms/18E_lifecycle",
+  "description": "Instant or post-server verify",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Instant or post-server verify",
+    "style": "forms + validation",
+    "behavior": "input_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH30",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
