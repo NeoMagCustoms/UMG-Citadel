@@ -1,0 +1,184 @@
+{
+  "categories": [
+    {
+      "category": "Prompt Architecture System",
+      "blocks": [
+        {
+          "block_name": "base_prompt_template",
+          "description": "The core static system message or initialization prompt"
+        },
+        {
+          "block_name": "user_input_injection_rule",
+          "description": "Where and how user input is inserted into the prompt structure"
+        },
+        {
+          "block_name": "context_layering_logic",
+          "description": "Rules for how memory, past messages, or metadata are woven into prompts"
+        },
+        {
+          "block_name": "dynamic_instruction_blocks",
+          "description": "Optional extra instructions inserted at runtime (e.g., based on intent)"
+        },
+        {
+          "block_name": "persona_modifiers_enabled",
+          "description": "Whether the persona affects prompt structure (e.g., pirate style prompt)"
+        },
+        {
+          "block_name": "prompt_token_guardrails",
+          "description": "Token budget, compression strategies, truncation logic"
+        },
+        {
+          "block_name": "prompt_type_mode",
+          "description": "Prompt logic style (e.g., chat-style, completion-style, chain-of-thought, few-shot)"
+        },
+        {
+          "block_name": "injection_trigger_conditions",
+          "description": "When and why specific injections activate (e.g., sensitive topic, agent switch)"
+        },
+        {
+          "block_name": "fallback_prompt_logic",
+          "description": "Backup prompt if primary construction fails or overflows"
+        },
+        {
+          "block_name": "prompt_testing_examples",
+          "description": "Example prompt \u2192 completion examples for preview or QA"
+        }
+      ]
+    },
+    {
+      "category": "MOLT Builder + Snap Logic Engine",
+      "blocks": [
+        {
+          "block_name": "available_molt_types",
+          "description": "List of MOLT types the bot recognizes (e.g., Style, Profession, Quirk, Philosophy)"
+        },
+        {
+          "block_name": "snap_sequence_order",
+          "description": "Preferred order of snapping MOLTs to avoid logic conflicts"
+        },
+        {
+          "block_name": "molt_merge_conflict_policy",
+          "description": "What happens when MOLTs overlap or contradict each other"
+        },
+        {
+          "block_name": "molt_customization_ui",
+          "description": "Whether users can visually select MOLTs (dropdowns, toggles, tags)"
+        },
+        {
+          "block_name": "block_dependency_map",
+          "description": "Which blocks require others to activate (e.g., Instruction must follow Role)"
+        },
+        {
+          "block_name": "realtime_snap_preview_enabled",
+          "description": "Show preview of final logic + persona after MOLTs are applied"
+        },
+        {
+          "block_name": "molt_persistence_mode",
+          "description": "Whether MOLT combos persist per session, memory, or profile"
+        },
+        {
+          "block_name": "user_defined_molt_creation",
+          "description": "Whether users can define their own MOLTs and save them"
+        },
+        {
+          "block_name": "snap_logic_script_format",
+          "description": "The schema or scripting logic used behind the snapping mechanism"
+        },
+        {
+          "block_name": "example_molt_merge_config",
+          "description": "Full example of a MOLT stack merged into a chatbot profile"
+        }
+      ]
+    },
+    {
+      "category": "Web App Merge Options (Embed Modes)",
+      "blocks": [
+        {
+          "block_name": "embed_mode_type",
+          "description": "Mode of merge: iframe, component, API call, JS widget, full takeover"
+        },
+        {
+          "block_name": "integration_target",
+          "description": "Where it\u2019s being embedded (e.g., WordPress, React app, Webflow site)"
+        },
+        {
+          "block_name": "auth_handling_method",
+          "description": "How authentication is handled across domains (e.g., SSO, session tokens)"
+        },
+        {
+          "block_name": "styling_inheritance",
+          "description": "Does the chatbot adopt parent app's CSS/theme?"
+        },
+        {
+          "block_name": "responsive_scaling_rules",
+          "description": "How bot adapts to screen sizes within host"
+        },
+        {
+          "block_name": "interaction_isolation_mode",
+          "description": "Whether conversation is sandboxed or tied to app-wide state"
+        },
+        {
+          "block_name": "custom_api_connector_required",
+          "description": "Whether embedding requires bridge APIs (e.g., CRM sync)"
+        },
+        {
+          "block_name": "merge_logic_snippet",
+          "description": "The code or JSON config used to inject the bot"
+        },
+        {
+          "block_name": "data_pass_through_support",
+          "description": "Can the bot accept and respond to structured data from host app?"
+        },
+        {
+          "block_name": "example_embed_use_case",
+          "description": "Sample description of chatbot inside a web app doing real tasks"
+        }
+      ]
+    },
+    {
+      "category": "Deployment Type",
+      "blocks": [
+        {
+          "block_name": "deployment_mode",
+          "description": "Type of deployment: API-only, frontend widget, PWA, mobile-native, CLI"
+        },
+        {
+          "block_name": "host_environment",
+          "description": "Target hosting platform (e.g., Replit, Vercel, AWS, Netlify)"
+        },
+        {
+          "block_name": "deployment_access_model",
+          "description": "Who can access it: public, invite-only, paywalled, organization-specific"
+        },
+        {
+          "block_name": "bot_update_strategy",
+          "description": "How updates are delivered (live push, versioned rollout, manual refresh)"
+        },
+        {
+          "block_name": "build_pipeline_integration",
+          "description": "CI/CD tools integrated with the deployment (e.g., GitHub Actions, Supabase hooks)"
+        },
+        {
+          "block_name": "deployment_limits",
+          "description": "Usage caps (e.g., number of sessions, request rate, concurrent users)"
+        },
+        {
+          "block_name": "offline_capability",
+          "description": "Whether the bot works offline or caches prior conversations"
+        },
+        {
+          "block_name": "api_endpoint_availability",
+          "description": "Is it accessible via REST, GraphQL, or WebSocket endpoint?"
+        },
+        {
+          "block_name": "monitoring_and_logs_enabled",
+          "description": "Whether performance and errors are logged, and how they\u2019re accessed"
+        },
+        {
+          "block_name": "example_deployment_use_case",
+          "description": "Real-world description of the chatbot in its deployed environment"
+        }
+      ]
+    }
+  ]
+}
