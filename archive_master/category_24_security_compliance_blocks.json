@@ -1,0 +1,1202 @@
+[
+  {
+    "block_id": "rbac_enforcement",
+    "label": "Role-Based Access Enforcement (RBAC)",
+    "category": "security/11A_auth_access",
+    "description": "Ensures permissions by user type",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Ensures permissions by user type",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "session_timeout",
+    "label": "Session Expiry & Timeout Logic",
+    "category": "security/11A_auth_access",
+    "description": "Auto-logouts after inactivity",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Auto-logouts after inactivity",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "mfa_enforcement",
+    "label": "MFA / 2FA Enforcement",
+    "category": "security/11A_auth_access",
+    "description": "Adds security layer on login",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Adds security layer on login",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "account_lockout",
+    "label": "Account Lockout Policy",
+    "category": "security/11A_auth_access",
+    "description": "Limits failed login attempts",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Limits failed login attempts",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "secure_cookie_config",
+    "label": "Secure Cookie Config (httpOnly, SameSite)",
+    "category": "security/11A_auth_access",
+    "description": "Prevents theft via browser",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Prevents theft via browser",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "https_everywhere",
+    "label": "HTTPS Everywhere (SSL/TLS)",
+    "category": "security/11B_data_encryption",
+    "description": "Encrypts data in transit",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Encrypts data in transit",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "at_rest_encryption",
+    "label": "At-Rest Encryption",
+    "category": "security/11B_data_encryption",
+    "description": "Protects DB/file storage at rest",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Protects DB/file storage at rest",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "field_level_encryption",
+    "label": "Field-Level Encryption",
+    "category": "security/11B_data_encryption",
+    "description": "Secures sensitive fields (e.g. SSN, credit card)",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Secures sensitive fields (e.g. SSN, credit card)",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "password_hashing",
+    "label": "Password Hashing (bcrypt, argon2)",
+    "category": "security/11B_data_encryption",
+    "description": "Prevents password theft",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Prevents password theft",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "key_rotation",
+    "label": "Key Rotation Policy",
+    "category": "security/11B_data_encryption",
+    "description": "Rotates encryption keys regularly",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Rotates encryption keys regularly",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "auth_middleware",
+    "label": "Auth Middleware on Protected Routes",
+    "category": "security/11C_api_route",
+    "description": "Prevents unauthenticated access",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Prevents unauthenticated access",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "rate_limiting",
+    "label": "Rate Limiting / Throttling",
+    "category": "security/11C_api_route",
+    "description": "Mitigates abuse and brute force",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Mitigates abuse and brute force",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "cors_policy",
+    "label": "CORS Policy Configuration",
+    "category": "security/11C_api_route",
+    "description": "Restricts origin access to APIs",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Restricts origin access to APIs",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "input_sanitization",
+    "label": "Input Sanitization",
+    "category": "security/11C_api_route",
+    "description": "Prevents XSS, injection attacks",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Prevents XSS, injection attacks",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "signature_validation",
+    "label": "Signature Validation (for webhooks)",
+    "category": "security/11C_api_route",
+    "description": "Confirms trusted sender",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Confirms trusted sender",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "firewall_acls",
+    "label": "Firewall / Network ACLs",
+    "category": "security/11D_infra",
+    "description": "Controls incoming traffic",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Controls incoming traffic",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "secure_deploy_scripts",
+    "label": "Secure Deployment Scripts",
+    "category": "security/11D_infra",
+    "description": "Reduces risk of open ports/config leaks",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Reduces risk of open ports/config leaks",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "db_credential_isolation",
+    "label": "Isolated Database Credentials",
+    "category": "security/11D_infra",
+    "description": "DB access restricted per environment",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "DB access restricted per environment",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "ssh_key_rotation",
+    "label": "SSH Key Rotation",
+    "category": "security/11D_infra",
+    "description": "Secures access to production servers",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Secures access to production servers",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "ddos_protection",
+    "label": "DDoS Protection Layer",
+    "category": "security/11D_infra",
+    "description": "Mitigates large-scale attacks",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Mitigates large-scale attacks",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "gdpr_ccpa_handling",
+    "label": "GDPR/CCPA Consent Handling",
+    "category": "security/11E_compliance",
+    "description": "Ensures user rights to data",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Ensures user rights to data",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "privacy_policy",
+    "label": "Privacy Policy Page",
+    "category": "security/11E_compliance",
+    "description": "Required disclosure of tracking/data use",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Required disclosure of tracking/data use",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "audit_logs",
+    "label": "Audit Logs & Change Tracking",
+    "category": "security/11E_compliance",
+    "description": "Logs access/edit events",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Logs access/edit events",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "terms_of_service",
+    "label": "Terms of Service & Usage Policy",
+    "category": "security/11E_compliance",
+    "description": "Legal usage contract",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Legal usage contract",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "breach_notification",
+    "label": "Data Breach Notification System",
+    "category": "security/11E_compliance",
+    "description": "Alerts in case of exposure",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Alerts in case of exposure",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "pentest_support",
+    "label": "Penetration Test Support",
+    "category": "security/11F_testing_monitoring",
+    "description": "Simulated attacks to reveal flaws",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Simulated attacks to reveal flaws",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "sast_dast_integration",
+    "label": "SAST / DAST Integration",
+    "category": "security/11F_testing_monitoring",
+    "description": "Static/dynamic code scanning",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Static/dynamic code scanning",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "vuln_scanner",
+    "label": "Vulnerability Scanner (e.g. Snyk)",
+    "category": "security/11F_testing_monitoring",
+    "description": "Finds package-level risks",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Finds package-level risks",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "incident_monitoring",
+    "label": "Incident Monitoring (Sentry, LogRocket)",
+    "category": "security/11F_testing_monitoring",
+    "description": "Detects client/server-side issues",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Detects client/server-side issues",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "rate_abuse_alert",
+    "label": "Rate-Limit Abuse Alert System",
+    "category": "security/11F_testing_monitoring",
+    "description": "Flags excessive usage patterns",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Flags excessive usage patterns",
+      "style": "security + compliance",
+      "behavior": "protection_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH24",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=PROTECT, DOMAIN=SECURITY, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  }
+]
