@@ -1,0 +1,1202 @@
+[
+  {
+    "block_id": "react_hook_form",
+    "label": "React Hook Form / Formik",
+    "category": "forms/18A_builders",
+    "description": "Form logic and bindings",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Form logic and bindings",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "ui_component_kits",
+    "label": "UI Component Kits (e.g., shadcn, MUI)",
+    "category": "forms/18A_builders",
+    "description": "Ready-made input components",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Ready-made input components",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "field_group_layouts",
+    "label": "Field Group Layouts (Rows, Cards)",
+    "category": "forms/18A_builders",
+    "description": "Grouping related inputs",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Grouping related inputs",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "reusable_form_blocks",
+    "label": "Reusable Form Blocks",
+    "category": "forms/18A_builders",
+    "description": "Repeatable templates",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Repeatable templates",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "styled_labels_tooltips",
+    "label": "Styled Labels, Help Text, Tooltips",
+    "category": "forms/18A_builders",
+    "description": "Better UX for complex fields",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Better UX for complex fields",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "zod_yup_schemas",
+    "label": "Zod / Yup Schema Validation",
+    "category": "forms/18B_validation",
+    "description": "Type-safe rules and schemas",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Type-safe rules and schemas",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "sync_async_rules",
+    "label": "Synchronous & Async Rules",
+    "category": "forms/18B_validation",
+    "description": "DB/email check, rate limits",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "DB/email check, rate limits",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "field_form_level_logic",
+    "label": "Field-Level & Form-Level Logic",
+    "category": "forms/18B_validation",
+    "description": "Local and holistic validation",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Local and holistic validation",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "custom_errors",
+    "label": "Custom Error Messages & Hints",
+    "category": "forms/18B_validation",
+    "description": "Localized, user-friendly errors",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Localized, user-friendly errors",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "validation_timing",
+    "label": "Show on Blur vs Realtime vs Submit",
+    "category": "forms/18B_validation",
+    "description": "When validation appears",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "When validation appears",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "conditional_visibility",
+    "label": "Conditional Visibility",
+    "category": "forms/18C_dynamic",
+    "description": "Show/hide based on prior answers",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Show/hide based on prior answers",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "repeatable_field_arrays",
+    "label": "Repeatable Field Arrays",
+    "category": "forms/18C_dynamic",
+    "description": "e.g., add multiple users/items",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "e.g., add multiple users/items",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "dynamic_selects",
+    "label": "Dynamic Selects & Option Loaders",
+    "category": "forms/18C_dynamic",
+    "description": "Load from API or state",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Load from API or state",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "inter_field_logic",
+    "label": "Inter-Field Dependency Logic",
+    "category": "forms/18C_dynamic",
+    "description": "Fields that trigger or change others",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Fields that trigger or change others",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "multi_step_wizards",
+    "label": "Multi-Step Form Wizards",
+    "category": "forms/18C_dynamic",
+    "description": "Progress through stages with memory",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Progress through stages with memory",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "input_masking",
+    "label": "Input Masking (Phone, CC, SSN)",
+    "category": "forms/18D_security",
+    "description": "Prevent format errors",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Prevent format errors",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "xss_escape_filter",
+    "label": "HTML Escaping / Injection Filter",
+    "category": "forms/18D_security",
+    "description": "Blocks XSS in text inputs",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Blocks XSS in text inputs",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "submit_rate_limit",
+    "label": "Rate-Limiting on Submission",
+    "category": "forms/18D_security",
+    "description": "Prevents spam attempts",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Prevents spam attempts",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "validation_rate_cap",
+    "label": "Validation Rate Cap Logic",
+    "category": "forms/18D_security",
+    "description": "Limits validation API spam",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Limits validation API spam",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "password_strength_meter",
+    "label": "Password Strength Meter",
+    "category": "forms/18D_security",
+    "description": "Shows password requirements live",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Shows password requirements live",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "optimistic_submission",
+    "label": "Optimistic vs Confirmed Submission",
+    "category": "forms/18E_lifecycle",
+    "description": "Instant or post-server verify",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Instant or post-server verify",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "form_reset_recovery",
+    "label": "Form Reset & Error Recovery",
+    "category": "forms/18E_lifecycle",
+    "description": "UX recovery from failure",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "UX recovery from failure",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "auto_save_drafts",
+    "label": "Auto-Save Drafts & Timeouts",
+    "category": "forms/18E_lifecycle",
+    "description": "Prevents lost inputs",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Prevents lost inputs",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "hook_into_api",
+    "label": "Hook Into Save/Create APIs",
+    "category": "forms/18E_lifecycle",
+    "description": "POST/PUT logic",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "POST/PUT logic",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "button_feedback_states",
+    "label": "Multi-State Button Logic",
+    "category": "forms/18E_lifecycle",
+    "description": "Loading / Success / Error feedback",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Loading / Success / Error feedback",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "custom_input_types",
+    "label": "Custom Input Types (Tags, Sliders)",
+    "category": "forms/18F_custom",
+    "description": "Rich input fields",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Rich input fields",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "form_as_wizard",
+    "label": "Form as Wizard / Dialogue",
+    "category": "forms/18F_custom",
+    "description": "Progressive disclosure",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Progressive disclosure",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "hidden_metadata_inputs",
+    "label": "Hidden Metadata Inputs",
+    "category": "forms/18F_custom",
+    "description": "Track origin, campaign, etc.",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Track origin, campaign, etc.",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "ai_autofill_predictive",
+    "label": "AI-Autofill or Predictive Entry",
+    "category": "forms/18F_custom",
+    "description": "Suggest values based on input",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Suggest values based on input",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "keyboard_nav_opt",
+    "label": "Keyboard Navigation Optimization",
+    "category": "forms/18F_custom",
+    "description": "Tab, enter, esc flow polish",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Tab, enter, esc flow polish",
+      "style": "forms + validation",
+      "behavior": "input_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH30",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=INPUT, DOMAIN=FORMS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  }
+]
