@@ -1,0 +1,32 @@
+{
+  "block_id": "new_hire_ops_training_guide",
+  "label": "New Hire Ops Training Guide",
+  "category": "business/5_operations/internal_training_guides",
+  "description": "How ops works, tools, who to ask",
+  "molt_type": "Instruction",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": ["bolt"],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "OPS",
+    "status": "template",
+    "origin_session": "citadel_ops"
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO"
+  }
+}
