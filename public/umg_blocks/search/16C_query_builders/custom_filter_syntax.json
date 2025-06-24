@@ -1,0 +1,40 @@
+{
+  "block_id": "custom_filter_syntax",
+  "label": "Custom Sort + Filter DSL Syntax",
+  "category": "search/16C_query_builders",
+  "description": "For advanced power users",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "For advanced power users",
+    "style": "search + modular",
+    "behavior": "filter_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH29",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=DISCOVER, DOMAIN=SEARCH, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
