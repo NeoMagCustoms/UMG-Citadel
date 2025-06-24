@@ -1,0 +1,40 @@
+{
+  "block_id": "firebase_client",
+  "label": "Firebase Client",
+  "category": "api/5C_sdks_clients",
+  "description": "Auth, Firestore, storage interfaces",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Auth, Firestore, storage interfaces",
+    "style": "api + integration",
+    "behavior": "connectivity_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH18",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=CONNECT, DOMAIN=API, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
