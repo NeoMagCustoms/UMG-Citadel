@@ -1,0 +1,1202 @@
+[
+  {
+    "block_id": "role_definitions",
+    "label": "Role Definitions (Admin, Viewer, etc.)",
+    "category": "access/21A_roles",
+    "description": "Base trust levels",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Base trust levels",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "scope_hierarchies",
+    "label": "Scope Hierarchies (Org, Project, User)",
+    "category": "access/21A_roles",
+    "description": "Nested access levels",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Nested access levels",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "crud_matrix",
+    "label": "CRUD Matrix Definition",
+    "category": "access/21A_roles",
+    "description": "Can Create/Read/Update/Delete what?",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Can Create/Read/Update/Delete what?",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "permission_flags",
+    "label": "Permission Toggles / Flags",
+    "category": "access/21A_roles",
+    "description": "Fine-grained control",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Fine-grained control",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "auth_wrappers",
+    "label": "Per-Route / Component Auth Wrappers",
+    "category": "access/21A_roles",
+    "description": "Guard UI views",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Guard UI views",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "tenant_db_schemas",
+    "label": "Tenant-Aware DB Schemas",
+    "category": "access/21B_tenant",
+    "description": "Org ID on every query",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Org ID on every query",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "row_level_security",
+    "label": "Row-Level Security (e.g., Supabase)",
+    "category": "access/21B_tenant",
+    "description": "Auto-filters by tenant",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Auto-filters by tenant",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "subdomain_routing",
+    "label": "Subdomain-Based Routing",
+    "category": "access/21B_tenant",
+    "description": "org.example.com routing",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "org.example.com routing",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "org_invite_join",
+    "label": "Invite / Join Organization Flows",
+    "category": "access/21B_tenant",
+    "description": "Org onboarding logic",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Org onboarding logic",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "tenant_resource_quotas",
+    "label": "Resource Quotas Per Tenant",
+    "category": "access/21B_tenant",
+    "description": "Limits tied to tenant account",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Limits tied to tenant account",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "permission_dsl",
+    "label": "Declarative Permission DSL",
+    "category": "access/21C_policy",
+    "description": "e.g. can('edit', 'post')",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "e.g. can('edit', 'post')",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "role_permission_map",
+    "label": "Role-Permission Table or Map",
+    "category": "access/21C_policy",
+    "description": "Connects roles to features",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Connects roles to features",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "multi_role_eval",
+    "label": "Multi-Role Evaluation",
+    "category": "access/21C_policy",
+    "description": "Support overlapping roles",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Support overlapping roles",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "feature_flag_gates",
+    "label": "Feature Flag Gates by Role/Plan",
+    "category": "access/21C_policy",
+    "description": "Limits visibility via flags",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Limits visibility via flags",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "policy_inheritance",
+    "label": "Policy Inheritance & Overwrites",
+    "category": "access/21C_policy",
+    "description": "Layering logic (e.g., parent org)",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Layering logic (e.g., parent org)",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "org_switcher_ui",
+    "label": "Active Org Switcher Dropdown",
+    "category": "access/21D_context",
+    "description": "Switch orgs mid-session",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Switch orgs mid-session",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "org_context_provider",
+    "label": "Session-Aware Org Context Provider",
+    "category": "access/21D_context",
+    "description": "Auto-injects org info",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Auto-injects org info",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "url_context_routing",
+    "label": "URL-Based Org Context",
+    "category": "access/21D_context",
+    "description": "Route embeds org ID or slug",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Route embeds org ID or slug",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "impersonation_mode",
+    "label": "Impersonation / Admin Mode",
+    "category": "access/21D_context",
+    "description": "View as another user/org",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "View as another user/org",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "org_ui_labels",
+    "label": "Org Name in Header/UI",
+    "category": "access/21D_context",
+    "description": "Helps user stay oriented",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Helps user stay oriented",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "page_redirects",
+    "label": "Page-Level Redirects on Fail",
+    "category": "access/21E_guards",
+    "description": "Sends user to 403 or login",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Sends user to 403 or login",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "field_redaction",
+    "label": "Field-Level Redaction",
+    "category": "access/21E_guards",
+    "description": "Hide input fields if not allowed",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Hide input fields if not allowed",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "button_hide_by_role",
+    "label": "Button Disable / Hide by Role",
+    "category": "access/21E_guards",
+    "description": "Prevent destructive access",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Prevent destructive access",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "server_side_guard",
+    "label": "Server-Side Policy Check Layer",
+    "category": "access/21E_guards",
+    "description": "API middleware filter",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "API middleware filter",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "conditional_mutations",
+    "label": "Conditional Mutation Blocks",
+    "category": "access/21E_guards",
+    "description": "Prevent DB writes if disallowed",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Prevent DB writes if disallowed",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "access_audit_log",
+    "label": "Access Audit Logs",
+    "category": "access/21F_audit",
+    "description": "Who viewed what, when",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Who viewed what, when",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "admin_role_dashboard",
+    "label": "Admin Dashboard for Roles",
+    "category": "access/21F_audit",
+    "description": "Assign and view permissions",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Assign and view permissions",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "auth_failure_log",
+    "label": "Logs for Auth Failures",
+    "category": "access/21F_audit",
+    "description": "Track blocked access",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Track blocked access",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "impersonation_metadata",
+    "label": "Impersonation Log + Metadata",
+    "category": "access/21F_audit",
+    "description": "Tracks who accessed what as whom",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Tracks who accessed what as whom",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "permissions_csv_export",
+    "label": "Exportable Permissions Map",
+    "category": "access/21F_audit",
+    "description": "Admin CSV of current rules",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Admin CSV of current rules",
+      "style": "access + modular",
+      "behavior": "role_guard_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH33",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  }
+]
