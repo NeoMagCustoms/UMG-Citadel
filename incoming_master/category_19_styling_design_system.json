@@ -1,0 +1,1242 @@
+[
+  {
+    "block_id": "color_tokens",
+    "label": "Color Tokens",
+    "category": "style/6A_design_tokens",
+    "description": "Named color roles (e.g., primary, background, accent)",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Named color roles (e.g., primary, background, accent)",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "spacing_scale",
+    "label": "Spacing Scale",
+    "category": "style/6A_design_tokens",
+    "description": "Base px/rem values for padding, margin",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Base px/rem values for padding, margin",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "radius_tokens",
+    "label": "Radius Tokens",
+    "category": "style/6A_design_tokens",
+    "description": "Rounded corners (e.g., sm, md, 2xl)",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Rounded corners (e.g., sm, md, 2xl)",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "font_scale",
+    "label": "Font Scale",
+    "category": "style/6A_design_tokens",
+    "description": "Typography rhythm (text-sm, text-2xl)",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Typography rhythm (text-sm, text-2xl)",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "shadow_tokens",
+    "label": "Shadow Tokens",
+    "category": "style/6A_design_tokens",
+    "description": "Elevation layers (e.g., cards, modals)",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Elevation layers (e.g., cards, modals)",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "z_index_map",
+    "label": "Z-Index Map",
+    "category": "style/6A_design_tokens",
+    "description": "Layering for overlays, nav, etc.",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Layering for overlays, nav, etc.",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "tailwind_classes",
+    "label": "Tailwind Utility Classes",
+    "category": "style/6B_component_styles",
+    "description": "Atomic styling rules",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Atomic styling rules",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "css_modules",
+    "label": "CSS Modules / SCSS",
+    "category": "style/6B_component_styles",
+    "description": "Scoped component stylesheets",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Scoped component stylesheets",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "styled_components",
+    "label": "Styled Components / Emotion",
+    "category": "style/6B_component_styles",
+    "description": "JS-in-CSS scoped styling logic",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "JS-in-CSS scoped styling logic",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "headless_ui_radix",
+    "label": "Headless UI / Radix",
+    "category": "style/6B_component_styles",
+    "description": "Behavior-first components with custom skins",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Behavior-first components with custom skins",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "global_reset",
+    "label": "Global Reset / Normalize",
+    "category": "style/6B_component_styles",
+    "description": "Ensures browser-consistent base styles",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Ensures browser-consistent base styles",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "light_dark_toggle",
+    "label": "Light/Dark Mode Toggle",
+    "category": "style/6C_theme_management",
+    "description": "User/system preference switching",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "User/system preference switching",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "system_theme_detection",
+    "label": "System Theme Detection",
+    "category": "style/6C_theme_management",
+    "description": "OS-aware design matching",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "OS-aware design matching",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "css_variable_switcher",
+    "label": "CSS Variable Root Switcher",
+    "category": "style/6C_theme_management",
+    "description": "Dynamic updates to theme tokens",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Dynamic updates to theme tokens",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "theme_storage",
+    "label": "User Preferences Storage",
+    "category": "style/6C_theme_management",
+    "description": "LocalStorage/theme syncing",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "LocalStorage/theme syncing",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "theme_provider",
+    "label": "Theme Provider (React Context)",
+    "category": "style/6C_theme_management",
+    "description": "Contextual override for theme switching",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Contextual override for theme switching",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "brand_palette",
+    "label": "Brand Color Palette",
+    "category": "style/6D_color_typography",
+    "description": "Approved primary, secondary, accent colors",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Approved primary, secondary, accent colors",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "font_pairing_guide",
+    "label": "Font Pairing Guide",
+    "category": "style/6D_color_typography",
+    "description": "Headline + body type systems",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Headline + body type systems",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "type_ramp",
+    "label": "Type Ramp / Scale",
+    "category": "style/6D_color_typography",
+    "description": "Visual hierarchy control",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Visual hierarchy control",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "icon_set_management",
+    "label": "Icon Set Management",
+    "category": "style/6D_color_typography",
+    "description": "Feather, Lucide, Heroicons setup",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Feather, Lucide, Heroicons setup",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "breakpoint_labels",
+    "label": "Responsive Breakpoint Labels",
+    "category": "style/6D_color_typography",
+    "description": "sm, md, lg, xl, etc. in design token form",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "sm, md, lg, xl, etc. in design token form",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "button_styles",
+    "label": "Button Styles",
+    "category": "style/6E_ui_states",
+    "description": "Primary, secondary, ghost, danger, etc.",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Primary, secondary, ghost, danger, etc.",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "input_field_variants",
+    "label": "Input Field Variants",
+    "category": "style/6E_ui_states",
+    "description": "Normal, disabled, error, focused, filled",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Normal, disabled, error, focused, filled",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "component_state_styles",
+    "label": "Component State Styles",
+    "category": "style/6E_ui_states",
+    "description": "Loading, error, hover, active, success",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Loading, error, hover, active, success",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "modal_drawer_templates",
+    "label": "Modal + Drawer Templates",
+    "category": "style/6E_ui_states",
+    "description": "Shared behavior/layout scaffolds",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Shared behavior/layout scaffolds",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "interactive_patterns",
+    "label": "Interactive UX Patterns",
+    "category": "style/6E_ui_states",
+    "description": "Cards, toggles, accordions, menus",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Cards, toggles, accordions, menus",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "logo_variants",
+    "label": "Logo Variants & Usage Rules",
+    "category": "style/6F_brand_assets",
+    "description": "Light vs dark background formats",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Light vs dark background formats",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "brand_guidelines_pdf",
+    "label": "Brand Guidelines PDF",
+    "category": "style/6F_brand_assets",
+    "description": "Font, logo, color, voice rules",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Font, logo, color, voice rules",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "asset_folder_structure",
+    "label": "Asset Folder Structure",
+    "category": "style/6F_brand_assets",
+    "description": "Consistent naming/storage convention",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Consistent naming/storage convention",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "favicon_setup",
+    "label": "Favicon / App Icon Setup",
+    "category": "style/6F_brand_assets",
+    "description": "Metadata and responsive icons",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Metadata and responsive icons",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "print_stylesheet",
+    "label": "CSS Print Stylesheet",
+    "category": "style/6F_brand_assets",
+    "description": "For downloadable/invoice content",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "For downloadable/invoice content",
+      "style": "design + system",
+      "behavior": "visual_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH19",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=STYLE, DOMAIN=UI, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  }
+]
