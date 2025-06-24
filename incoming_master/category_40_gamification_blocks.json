@@ -1,0 +1,1202 @@
+[
+  {
+    "block_id": "27a_action-to-xp_map",
+    "label": "Action-to-XP Map",
+    "category": "webapp/27_gamification",
+    "description": "Defines XP earned per action",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27a_level_thresholds_and_ranks",
+    "label": "Level Thresholds & Ranks",
+    "category": "webapp/27_gamification",
+    "description": "Sets XP for leveling up",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27a_xp_multipliers_events,_boosters",
+    "label": "XP Multipliers (Events, Boosters)",
+    "category": "webapp/27_gamification",
+    "description": "Temporary reward amplification",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27a_negative_xp__penalties",
+    "label": "Negative XP / Penalties",
+    "category": "webapp/27_gamification",
+    "description": "Punishes abuse or mistakes",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27a_xp_progress_bar_ui",
+    "label": "XP Progress Bar UI",
+    "category": "webapp/27_gamification",
+    "description": "Shows leveling progress",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27b_collectible_badges_and_unlockables",
+    "label": "Collectible Badges & Unlockables",
+    "category": "webapp/27_gamification",
+    "description": "Awarded for key milestones",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27b_dailyweekly_streak_systems",
+    "label": "Daily/Weekly Streak Systems",
+    "category": "webapp/27_gamification",
+    "description": "Encourage consistent return",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27b_trophy_cabinet__badge_showcase",
+    "label": "Trophy Cabinet / Badge Showcase",
+    "category": "webapp/27_gamification",
+    "description": "Display earned honors",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27b_surprise_drops_random_gifts",
+    "label": "Surprise Drops (Random Gifts)",
+    "category": "webapp/27_gamification",
+    "description": "Inject fun & unpredictability",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27b_roletitle_rewards",
+    "label": "Role/Title Rewards",
+    "category": "webapp/27_gamification",
+    "description": "Gamified identity",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27c_point_shop_or_rewards_catalog",
+    "label": "Point Shop or Rewards Catalog",
+    "category": "webapp/27_gamification",
+    "description": "Spend points on perks",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27c_time-based_reward_intervals",
+    "label": "Time-Based Reward Intervals",
+    "category": "webapp/27_gamification",
+    "description": "\u201cVisit X days to earn Y\u201d",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27c_custom_currency_naming",
+    "label": "Custom Currency Naming",
+    "category": "webapp/27_gamification",
+    "description": "Branded coin system",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27c_earnable_discount_tiers",
+    "label": "Earnable Discount Tiers",
+    "category": "webapp/27_gamification",
+    "description": "Loyalty \u2192 lower prices",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27c_punch_card_mechanics",
+    "label": "Punch Card Mechanics",
+    "category": "webapp/27_gamification",
+    "description": "Fill slots, get gift",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27d_invite_code_or_referral_link",
+    "label": "Invite Code or Referral Link",
+    "category": "webapp/27_gamification",
+    "description": "Ties reward to inviter",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27d_double-sided_reward_offers",
+    "label": "Double-Sided Reward Offers",
+    "category": "webapp/27_gamification",
+    "description": "Both inviter and invitee benefit",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27d_sharing_milestone_bonuses",
+    "label": "Sharing Milestone Bonuses",
+    "category": "webapp/27_gamification",
+    "description": "Post X times \u2192 reward",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27d_social_platform_sharing_hook",
+    "label": "Social Platform Sharing Hook",
+    "category": "webapp/27_gamification",
+    "description": "Native FB/Twitter/X share buttons",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27d_invite_leaderboard_or_rankings",
+    "label": "Invite Leaderboard or Rankings",
+    "category": "webapp/27_gamification",
+    "description": "Gamifies growth contribution",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27e_xp_bar,_level_badge_in_header",
+    "label": "XP Bar, Level Badge in Header",
+    "category": "webapp/27_gamification",
+    "description": "Persistent progress cue",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27e_leaderboard_by_category_or_tier",
+    "label": "Leaderboard by Category or Tier",
+    "category": "webapp/27_gamification",
+    "description": "Ranks users in context",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27e_next_reward_countdown",
+    "label": "Next Reward Countdown",
+    "category": "webapp/27_gamification",
+    "description": "Motivates toward goal",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27e_heatmap_of_active_users",
+    "label": "Heatmap of Active Users",
+    "category": "webapp/27_gamification",
+    "description": "Shows streak health",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27e_filtered_leaderboards",
+    "label": "Filtered Leaderboards",
+    "category": "webapp/27_gamification",
+    "description": "Compares within relevant group",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27f_cooldown_timers_for_reward_loops",
+    "label": "Cooldown Timers for Reward Loops",
+    "category": "webapp/27_gamification",
+    "description": "Prevent farming",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27f_bot_detection_logic",
+    "label": "Bot Detection Logic",
+    "category": "webapp/27_gamification",
+    "description": "Stops automated abuse",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27f_rate-limited_reward_granting",
+    "label": "Rate-Limited Reward Granting",
+    "category": "webapp/27_gamification",
+    "description": "Controls reward frequency",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27f_reward_history_log",
+    "label": "Reward History Log",
+    "category": "webapp/27_gamification",
+    "description": "Tracks issued rewards",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "27f_admin_panel_for_manual_adjustment",
+    "label": "Admin Panel for Manual Adjustment",
+    "category": "webapp/27_gamification",
+    "description": "Fix or edit user rewards",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "GAME",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  }
+]
