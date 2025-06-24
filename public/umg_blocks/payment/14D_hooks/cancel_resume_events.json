@@ -1,0 +1,40 @@
+{
+  "block_id": "cancel_resume_events",
+  "label": "Cancel / Resume Events",
+  "category": "payment/14D_hooks",
+  "description": "Handle lifecycle changes",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Handle lifecycle changes",
+    "style": "billing + modular",
+    "behavior": "transaction_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH27",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=MONETIZE, DOMAIN=PAYMENT, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
