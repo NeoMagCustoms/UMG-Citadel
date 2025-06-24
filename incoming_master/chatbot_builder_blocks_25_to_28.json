@@ -1,0 +1,29 @@
+{
+  "category": "Chatbot Builder",
+  "blocks": [
+    {
+      "block_id": "chat_history_editing",
+      "label": "Chat History + Editing",
+      "category": "25_chatbot_history_editing",
+      "description": "Defines chat memory access, review, forking, and UI presentation logic."
+    },
+    {
+      "block_id": "language_i18n_settings",
+      "label": "Language & i18n Settings",
+      "category": "26_chatbot_language_settings",
+      "description": "Manages multilingual support, language detection, localization, and translation."
+    },
+    {
+      "block_id": "voice_avatar_extensions",
+      "label": "Voice & Avatar Extensions",
+      "category": "27_chatbot_voice_and_avatar",
+      "description": "Controls TTS engine, avatar visual display, lip-syncing, and audio settings."
+    },
+    {
+      "block_id": "memory_editor_panel",
+      "label": "Memory Editor Panel",
+      "category": "28_chatbot_memory_editor",
+      "description": "Gives UI for manual memory review, tagging, injection, deletion, and override."
+    }
+  ]
+}
