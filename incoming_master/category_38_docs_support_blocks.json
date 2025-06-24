@@ -1,0 +1,1202 @@
+[
+  {
+    "block_id": "25a_full_help_center_page",
+    "label": "Full Help Center Page",
+    "category": "webapp/25_docs_support",
+    "description": "Search + category layout",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25a_support_portal_or_knowledge_hub",
+    "label": "Support Portal or Knowledge Hub",
+    "category": "webapp/25_docs_support",
+    "description": "Collection of how-tos & policies",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25a_feedback_form_below_articles",
+    "label": "Feedback Form Below Articles",
+    "category": "webapp/25_docs_support",
+    "description": "\u201cWas this helpful?\u201d",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25a_submit_ticket__contact_page",
+    "label": "Submit Ticket / Contact Page",
+    "category": "webapp/25_docs_support",
+    "description": "User-initiated support requests",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25a_markdown_or_rich_editor_for_docs",
+    "label": "Markdown or Rich Editor for Docs",
+    "category": "webapp/25_docs_support",
+    "description": "Internal team authoring",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25b_hover_tooltips_and_info_icons",
+    "label": "Hover Tooltips & Info Icons",
+    "category": "webapp/25_docs_support",
+    "description": "On-demand clarity",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25b_walkthrough_overlays__step_tours",
+    "label": "Walkthrough Overlays / Step Tours",
+    "category": "webapp/25_docs_support",
+    "description": "Guides new users through flows",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25b_fieldbyfield_descriptions",
+    "label": "Field-by-Field Descriptions",
+    "category": "webapp/25_docs_support",
+    "description": "Beneath or beside inputs",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25b_hotspot_help_onboarding",
+    "label": "Hotspot Help Onboarding",
+    "category": "webapp/25_docs_support",
+    "description": "Stepwise discovery UI",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25b_embedded_video_help",
+    "label": "Embedded Video Help",
+    "category": "webapp/25_docs_support",
+    "description": "Multimedia onboarding",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25c_intercom__crisp__tawkto_widget",
+    "label": "Intercom / Crisp / Tawk.to Widget",
+    "category": "webapp/25_docs_support",
+    "description": "Chat with real agent",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25c_ai_helpbot_trained_on_docs",
+    "label": "AI Helpbot Trained on Docs",
+    "category": "webapp/25_docs_support",
+    "description": "Auto-answers basic questions",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25c_handoff_to_human_escalation_logic",
+    "label": "Handoff to Human Escalation Logic",
+    "category": "webapp/25_docs_support",
+    "description": "From bot \u2192 agent",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25c_support_availability_scheduler",
+    "label": "Support Availability Scheduler",
+    "category": "webapp/25_docs_support",
+    "description": "Show agent online hours",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25c_email_or_sms_ticket_confirmations",
+    "label": "Email or SMS Ticket Confirmations",
+    "category": "webapp/25_docs_support",
+    "description": "Logs ticket activity",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25d_category_to_subcategory_trees",
+    "label": "Category \u2192 Subcategory Trees",
+    "category": "webapp/25_docs_support",
+    "description": "Logical doc hierarchy",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25d_article_tagging_and_related_docs",
+    "label": "Article Tagging & Related Docs",
+    "category": "webapp/25_docs_support",
+    "description": "Suggests similar info",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25d_search_bar_with_typo_tolerance",
+    "label": "Search Bar with Typo Tolerance",
+    "category": "webapp/25_docs_support",
+    "description": "Fast, fuzzy lookup",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25d_doc_view_counter__popularity_rank",
+    "label": "Doc View Counter / Popularity Rank",
+    "category": "webapp/25_docs_support",
+    "description": "See most-used guides",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25d_doc_edit_history_and_versioning",
+    "label": "Doc Edit History & Versioning",
+    "category": "webapp/25_docs_support",
+    "description": "Tracks doc updates",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25e_was_this_helpful?_ratings",
+    "label": "Was This Helpful? Ratings",
+    "category": "webapp/25_docs_support",
+    "description": "Article usefulness check",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25e_thumbs_up__down_and_text_response",
+    "label": "Thumbs Up / Down & Text Response",
+    "category": "webapp/25_docs_support",
+    "description": "Quick feedback after answers",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25e_time_to_resolution_metric",
+    "label": "Time to Resolution Metric",
+    "category": "webapp/25_docs_support",
+    "description": "Support team performance",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25e_support_volume_dashboard",
+    "label": "Support Volume Dashboard",
+    "category": "webapp/25_docs_support",
+    "description": "Tracks contact frequency",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25e_agent_feedback_surveys",
+    "label": "Agent Feedback Surveys",
+    "category": "webapp/25_docs_support",
+    "description": "Evaluate human interactions",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25f_public_vs_private_doc_toggle",
+    "label": "Public vs Private Doc Toggle",
+    "category": "webapp/25_docs_support",
+    "description": "Controls who sees what",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25f_internalonly_article_flags",
+    "label": "Internal-Only Article Flags",
+    "category": "webapp/25_docs_support",
+    "description": "Staff guides hidden from users",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25f_user_rolebased_visibility",
+    "label": "User Role-Based Visibility",
+    "category": "webapp/25_docs_support",
+    "description": "Show by team/admin/user level",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25f_region_or_language_restriction",
+    "label": "Region or Language Restriction",
+    "category": "webapp/25_docs_support",
+    "description": "i18n of help content",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "25f_expiring_article_links",
+    "label": "Expiring Article Links",
+    "category": "webapp/25_docs_support",
+    "description": "Time-sensitive access logic",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "SUP",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DOCUMENTATION_SUPPORT, DOMAIN=UX, STYLE=ASSISTIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  }
+]
