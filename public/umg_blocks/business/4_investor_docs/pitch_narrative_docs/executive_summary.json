@@ -1,0 +1,37 @@
+{
+  "block_id": "executive_summary",
+  "label": "Executive Summary",
+  "category": "investor_docs/pitch_narrative_docs",
+  "description": "Concise 1–2 page written summary of the opportunity",
+  "molt_type": "Instruction",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "INST",
+    "snap_to": [
+      "Subject"
+    ],
+    "fit_score": 0.92
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO"
+  }
+}
