@@ -1,0 +1,40 @@
+{
+  "block_id": "function_guardrails",
+  "label": "Function Guardrails",
+  "category": "ai/13E_safety",
+  "description": "Restricts what agents can call",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Restricts what agents can call",
+    "style": "ai + modular",
+    "behavior": "intelligent_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH26",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=AUTOMATE, DOMAIN=AI, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
