@@ -1,0 +1,40 @@
+{
+  "block_id": "foreign_keys",
+  "label": "Foreign Keys / References",
+  "category": "database/4E_constraints",
+  "description": "Maintains relational integrity",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Maintains relational integrity",
+    "style": "database + modular",
+    "behavior": "data_modeling"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH17",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=STORE, DOMAIN=DATA, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
