@@ -1,0 +1,40 @@
+{
+  "block_id": "conversion_events",
+  "label": "Conversion Events",
+  "category": "analytics/9C_user_metrics",
+  "description": "Completion of signup, purchase, share, etc.",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Completion of signup, purchase, share, etc.",
+    "style": "analytics + modular",
+    "behavior": "tracking_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH22",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=OBSERVE, DOMAIN=ANALYTICS, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
