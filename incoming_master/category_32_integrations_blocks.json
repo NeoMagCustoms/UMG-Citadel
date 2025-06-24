@@ -1,0 +1,1202 @@
+[
+  {
+    "block_id": "axios_retry_wrapper",
+    "label": "Axios / Fetch Wrapper with Retry",
+    "category": "integrations/20A_api_gateway",
+    "description": "Standardized API calling",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Standardized API calling",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "central_api_handler",
+    "label": "Central API Call Handler",
+    "category": "integrations/20A_api_gateway",
+    "description": "Logs, errors, reauth",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Logs, errors, reauth",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "global_auth_token",
+    "label": "Global Auth Token Injection",
+    "category": "integrations/20A_api_gateway",
+    "description": "Secures outgoing calls",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Secures outgoing calls",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "rate_limit_watcher",
+    "label": "Rate Limit Watcher",
+    "category": "integrations/20A_api_gateway",
+    "description": "Prevents API spam",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Prevents API spam",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "batched_api_calls",
+    "label": "Batched or Debounced API Logic",
+    "category": "integrations/20A_api_gateway",
+    "description": "Groups API calls efficiently",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Groups API calls efficiently",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "oauth_login_flows",
+    "label": "Google / GitHub / Discord Login",
+    "category": "integrations/20B_oauth",
+    "description": "OAuth2 login flows",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "OAuth2 login flows",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "openid_connect",
+    "label": "OpenID Connect Provider Integration",
+    "category": "integrations/20B_oauth",
+    "description": "Enterprise login",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Enterprise login",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "refresh_token_storage",
+    "label": "Refresh Token Storage",
+    "category": "integrations/20B_oauth",
+    "description": "Keeps sessions alive",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Keeps sessions alive",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "scope_consent_setup",
+    "label": "Consent Screen Scope Setup",
+    "category": "integrations/20B_oauth",
+    "description": "User permission control",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "User permission control",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "token_revocation",
+    "label": "Token Revocation & Logout Handling",
+    "category": "integrations/20B_oauth",
+    "description": "Log out across systems",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Log out across systems",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "zapier_connector",
+    "label": "Zapier / Make.com Connector",
+    "category": "integrations/20C_saas",
+    "description": "No-code workflows",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "No-code workflows",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "messaging_bots",
+    "label": "Slack / Discord / Teams Bots",
+    "category": "integrations/20C_saas",
+    "description": "Sends alerts to users",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Sends alerts to users",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "productivity_sync",
+    "label": "Notion / Airtable / Google Sheets",
+    "category": "integrations/20C_saas",
+    "description": "Data syncing",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Data syncing",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "ecommerce_sync",
+    "label": "Shopify / Stripe / Printful Sync",
+    "category": "integrations/20C_saas",
+    "description": "E-commerce logic",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "E-commerce logic",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "crm_api_hooks",
+    "label": "Salesforce / Hubspot API",
+    "category": "integrations/20C_saas",
+    "description": "CRM logic",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "CRM logic",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "ga_mixpanel_tracking",
+    "label": "Google Analytics / Mixpanel",
+    "category": "integrations/20D_analytics",
+    "description": "Pageview + user tracking",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Pageview + user tracking",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "segment_hook",
+    "label": "Segment / RudderStack Hook",
+    "category": "integrations/20D_analytics",
+    "description": "Unified data layer",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Unified data layer",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "pixel_tracking",
+    "label": "Facebook Pixel / Twitter Tag",
+    "category": "integrations/20D_analytics",
+    "description": "Ads & retargeting",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Ads & retargeting",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "email_marketing_apis",
+    "label": "Email Automation APIs (Mailchimp)",
+    "category": "integrations/20D_analytics",
+    "description": "Sends marketing flows",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Sends marketing flows",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "attribution_tracking",
+    "label": "Attribution Tracking Logic",
+    "category": "integrations/20D_analytics",
+    "description": "Tracks source of users",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Tracks source of users",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "api_key_vault",
+    "label": "Encrypted API Key Vault",
+    "category": "integrations/20E_secrets",
+    "description": "Stores provider credentials",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Stores provider credentials",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "role_credential_access",
+    "label": "Role-Based API Credential Access",
+    "category": "integrations/20E_secrets",
+    "description": "Protects secrets per role",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Protects secrets per role",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "quota_monitor",
+    "label": "Quota Monitor Logic",
+    "category": "integrations/20E_secrets",
+    "description": "Flags nearing limits",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Flags nearing limits",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "proxy_gateway_hidden_calls",
+    "label": "Proxy Gateway for Hidden Calls",
+    "category": "integrations/20E_secrets",
+    "description": "Prevents frontend exposure",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Prevents frontend exposure",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "obfuscated_key_naming",
+    "label": "Obfuscated Key Naming Convention",
+    "category": "integrations/20E_secrets",
+    "description": "Hides sensitive references",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Hides sensitive references",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "status_health_check",
+    "label": "Status Page or Health Check Logic",
+    "category": "integrations/20F_sync",
+    "description": "Shows uptime/errors",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Shows uptime/errors",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "retry_failed_syncs",
+    "label": "Retry Failed API Syncs",
+    "category": "integrations/20F_sync",
+    "description": "Auto-resend on error",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Auto-resend on error",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "integration_event_logs",
+    "label": "Integration Event Logs",
+    "category": "integrations/20F_sync",
+    "description": "Tracks sync or webhook events",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Tracks sync or webhook events",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "manual_resync_button",
+    "label": "Manual Resync Button",
+    "category": "integrations/20F_sync",
+    "description": "Restarts connection",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Restarts connection",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "stale_data_alerts",
+    "label": "Stale Data Alerts",
+    "category": "integrations/20F_sync",
+    "description": "Flags old data from failed syncs",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Flags old data from failed syncs",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  }
+]
