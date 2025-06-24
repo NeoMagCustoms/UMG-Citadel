@@ -1,0 +1,40 @@
+{
+  "block_id": "8_secondary_skills_example_use_cases",
+  "label": "Example Use Cases",
+  "category": "chatbot_builder/8_secondary_skills",
+  "description": "Example prompt and result pairs",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "BOT",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.91
+  },
+  "cantocore": "GOAL=DEFINE_CHATBOT_BEHAVIOR, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
