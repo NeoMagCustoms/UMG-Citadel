@@ -1,0 +1,40 @@
+{
+  "block_id": "auto_responsive_components",
+  "label": "Auto-Responsive Components",
+  "category": "pwa/7A_responsive_layout",
+  "description": "Button, card, image auto-scale",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Button, card, image auto-scale",
+    "style": "pwa + responsive",
+    "behavior": "device_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH20",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
