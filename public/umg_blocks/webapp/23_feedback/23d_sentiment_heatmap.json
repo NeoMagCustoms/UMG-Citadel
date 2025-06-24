@@ -1,0 +1,40 @@
+{
+  "block_id": "23d_sentiment_heatmap",
+  "label": "Sentiment Heatmap",
+  "category": "webapp/23_feedback",
+  "description": "Positive/neutral/negative clusters",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "FBK",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.92
+  },
+  "cantocore": "GOAL=COLLECT_FEEDBACK, DOMAIN=UX, STYLE=DIRECT",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
