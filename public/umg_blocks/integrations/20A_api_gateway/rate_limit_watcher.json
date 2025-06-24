@@ -1,0 +1,40 @@
+{
+  "block_id": "rate_limit_watcher",
+  "label": "Rate Limit Watcher",
+  "category": "integrations/20A_api_gateway",
+  "description": "Prevents API spam",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Prevents API spam",
+    "style": "integration + modular",
+    "behavior": "connectivity_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH32",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
