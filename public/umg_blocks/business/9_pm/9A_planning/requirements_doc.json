@@ -1,0 +1,40 @@
+{
+  "block_id": "requirements_doc",
+  "label": "Requirements Document",
+  "category": "business/9_pm/9A_planning",
+  "description": "Technical or functional needs per feature",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Technical or functional needs per feature",
+    "style": "modular + structured",
+    "behavior": "documentation_block"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "BIZ",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=DOCUMENT, DOMAIN=BUSINESS, STYLE=FORMAL",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
