@@ -1,0 +1,40 @@
+{
+  "block_id": "local_email_tester",
+  "label": "Local Email/Webhook Tester",
+  "category": "devtools/12D_mock_fixtures",
+  "description": "Captures outbound notifications locally",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Captures outbound notifications locally",
+    "style": "developer + modular",
+    "behavior": "dev_experience"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH25",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=ACCELERATE, DOMAIN=DX, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

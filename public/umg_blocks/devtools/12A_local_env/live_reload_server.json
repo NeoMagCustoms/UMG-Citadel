@@ -1,0 +1,40 @@
+{
+  "block_id": "live_reload_server",
+  "label": "Live Reload Server",
+  "category": "devtools/12A_local_env",
+  "description": "Auto refresh on change",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Auto refresh on change",
+    "style": "developer + modular",
+    "behavior": "dev_experience"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH25",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=ACCELERATE, DOMAIN=DX, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
