@@ -1,0 +1,1202 @@
+[
+  {
+    "block_id": "29a_flowchart_canvas_(drag_and_drop)",
+    "label": "Flowchart Canvas (Drag & Drop)",
+    "category": "webapp/29_workflows",
+    "description": "Visual rule construction",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29a_condition_blocks_(ifelseswitch)",
+    "label": "Condition Blocks (if/else/switch)",
+    "category": "webapp/29_workflows",
+    "description": "Branching logic paths",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29a_variable_connectors__input_nodes",
+    "label": "Variable Connectors / Input Nodes",
+    "category": "webapp/29_workflows",
+    "description": "Pass dynamic values",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29a_labelled_inputs,_colors,_icons",
+    "label": "Labelled Inputs, Colors, Icons",
+    "category": "webapp/29_workflows",
+    "description": "Helps parse logic visually",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29a_zoom,_collapse,_grouping_options",
+    "label": "Zoom, Collapse, Grouping Options",
+    "category": "webapp/29_workflows",
+    "description": "Organize complex flows",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29b_event_based_triggers_(on_save,_login)",
+    "label": "Event-Based Triggers (on save, login)",
+    "category": "webapp/29_workflows",
+    "description": "Reactive workflows",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29b_time_based_triggers_(cron,_interval)",
+    "label": "Time-Based Triggers (cron, interval)",
+    "category": "webapp/29_workflows",
+    "description": "Scheduled actions",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29b_debouncethrottle_logic",
+    "label": "Debounce/Throttle Logic",
+    "category": "webapp/29_workflows",
+    "description": "Prevents over-triggering",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29b_delay_and_timeout_blocks",
+    "label": "Delay & Timeout Blocks",
+    "category": "webapp/29_workflows",
+    "description": "Add wait time",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29b_retry_on_failure_logic",
+    "label": "Retry on Failure Logic",
+    "category": "webapp/29_workflows",
+    "description": "Makes flow fault-tolerant",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29c_expression_editor_ui",
+    "label": "Expression Editor UI",
+    "category": "webapp/29_workflows",
+    "description": "Write and test logic conditions",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29c_andornested_conditions",
+    "label": "AND/OR/NESTED Conditions",
+    "category": "webapp/29_workflows",
+    "description": "Complex matching criteria",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29c_compare_fields__constants",
+    "label": "Compare Fields / Constants",
+    "category": "webapp/29_workflows",
+    "description": "Dynamic checks",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29c_value_transformers_(math,_concat)",
+    "label": "Value Transformers (math, concat)",
+    "category": "webapp/29_workflows",
+    "description": "Modify data mid-flow",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29c_eval_sandbox_(safe_runtime_parser)",
+    "label": "Eval Sandbox (safe runtime parser)",
+    "category": "webapp/29_workflows",
+    "description": "Runs logic securely",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29d_sequential_block_execution",
+    "label": "Sequential Block Execution",
+    "category": "webapp/29_workflows",
+    "description": "Ordered automation",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29d_branching_actions_per_condition",
+    "label": "Branching Actions Per Condition",
+    "category": "webapp/29_workflows",
+    "description": "Logic-driven result paths",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29d_external_api_calls",
+    "label": "External API Calls",
+    "category": "webapp/29_workflows",
+    "description": "Extend via webhook",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29d_save_to_db__trigger_email__update_record",
+    "label": "Save to DB / Trigger Email / Update Record",
+    "category": "webapp/29_workflows",
+    "description": "Data actions",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29d_loop_or_iterate_block",
+    "label": "Loop or Iterate Block",
+    "category": "webapp/29_workflows",
+    "description": "Perform action X times",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29e_save_block_as_template",
+    "label": "Save Block as Template",
+    "category": "webapp/29_workflows",
+    "description": "Reuse across workflows",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29e_copy_logic_tree",
+    "label": "Copy Logic Tree",
+    "category": "webapp/29_workflows",
+    "description": "Clone part of flow",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29e_shared_workflow_library",
+    "label": "Shared Workflow Library",
+    "category": "webapp/29_workflows",
+    "description": "Store common automations",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29e_pre_built_block_marketplace",
+    "label": "Pre-Built Block Marketplace",
+    "category": "webapp/29_workflows",
+    "description": "Install community recipes",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29e_importexport_json_logic",
+    "label": "Import/Export JSON Logic",
+    "category": "webapp/29_workflows",
+    "description": "Share and backup flows",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29f_run_history_log",
+    "label": "Run History Log",
+    "category": "webapp/29_workflows",
+    "description": "View each run result",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29f_rollback_previous_state",
+    "label": "Rollback Previous State",
+    "category": "webapp/29_workflows",
+    "description": "Undo if error",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29f_pause__resume_switch",
+    "label": "Pause / Resume Switch",
+    "category": "webapp/29_workflows",
+    "description": "Enable/disable workflow",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29f_error_handler_block",
+    "label": "Error Handler Block",
+    "category": "webapp/29_workflows",
+    "description": "Catch & route failures",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "29f_admin_audit_trail",
+    "label": "Admin Audit Trail",
+    "category": "webapp/29_workflows",
+    "description": "Who ran what, when",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "FLOW",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  }
+]
