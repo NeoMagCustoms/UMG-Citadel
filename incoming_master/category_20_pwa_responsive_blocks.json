@@ -1,0 +1,1202 @@
+[
+  {
+    "block_id": "grid_flex_system",
+    "label": "Grid + Flex Layout System",
+    "category": "pwa/7A_responsive_layout",
+    "description": "Adjusts based on screen width",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Adjusts based on screen width",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "media_query_tokens",
+    "label": "Media Query Tokens",
+    "category": "pwa/7A_responsive_layout",
+    "description": "sm, md, lg, etc. reused consistently",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "sm, md, lg, etc. reused consistently",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "auto_responsive_components",
+    "label": "Auto-Responsive Components",
+    "category": "pwa/7A_responsive_layout",
+    "description": "Button, card, image auto-scale",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Button, card, image auto-scale",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "collapse_logic",
+    "label": "Collapse Logic",
+    "category": "pwa/7A_responsive_layout",
+    "description": "Nav/sidebars turn into mobile menus",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Nav/sidebars turn into mobile menus",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "sticky_mobile_headers",
+    "label": "Sticky Mobile Headers",
+    "category": "pwa/7A_responsive_layout",
+    "description": "Keeps actions reachable on mobile",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Keeps actions reachable on mobile",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "breakpoint_definitions",
+    "label": "Breakpoint Definitions",
+    "category": "pwa/7B_device_breakpoints",
+    "description": "Base widths per device class (e.g., sm=640px)",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Base widths per device class (e.g., sm=640px)",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "utility_class_scaling",
+    "label": "Utility Class Scaling",
+    "category": "pwa/7B_device_breakpoints",
+    "description": "Responsive Tailwind/SCSS utilities",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Responsive Tailwind/SCSS utilities",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "touch_gesture_detection",
+    "label": "Touch Gesture Detection",
+    "category": "pwa/7B_device_breakpoints",
+    "description": "Swipe, pinch, long-press support",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Swipe, pinch, long-press support",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "orientation_awareness",
+    "label": "Orientation Awareness",
+    "category": "pwa/7B_device_breakpoints",
+    "description": "Portrait vs landscape design logic",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Portrait vs landscape design logic",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "safe_area_insets",
+    "label": "Safe Area Insets Handling",
+    "category": "pwa/7B_device_breakpoints",
+    "description": "Adjust for iOS notches and bars",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Adjust for iOS notches and bars",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "service_worker_file",
+    "label": "service-worker.js File",
+    "category": "pwa/7C_service_worker",
+    "description": "Core offline/asset logic",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Core offline/asset logic",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "cache_strategy",
+    "label": "Cache-First vs Network-First Logic",
+    "category": "pwa/7C_service_worker",
+    "description": "How data is served when offline",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "How data is served when offline",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "auto_update_versioning",
+    "label": "Auto Update / Versioning",
+    "category": "pwa/7C_service_worker",
+    "description": "Controls SW refresh strategy",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Controls SW refresh strategy",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "workbox_tools",
+    "label": "Workbox or Custom SW Tools",
+    "category": "pwa/7C_service_worker",
+    "description": "Higher-level service worker toolkit",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Higher-level service worker toolkit",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "push_notification_setup",
+    "label": "Push Notification Setup",
+    "category": "pwa/7C_service_worker",
+    "description": "Enables push logic (w/ backend help)",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Enables push logic (w/ backend help)",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "manifest_file",
+    "label": "manifest.webmanifest File",
+    "category": "pwa/7D_manifest_install",
+    "description": "Defines app name, icons, colors, behavior",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Defines app name, icons, colors, behavior",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "home_screen_support",
+    "label": "Home Screen Add Support",
+    "category": "pwa/7D_manifest_install",
+    "description": "Android/iOS PWA prompts",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Android/iOS PWA prompts",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "splash_screen_config",
+    "label": "Splash Screen Config",
+    "category": "pwa/7D_manifest_install",
+    "description": "Controls install launch screen",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Controls install launch screen",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "custom_app_icon",
+    "label": "Custom App Name + Icon",
+    "category": "pwa/7D_manifest_install",
+    "description": "Branding for native-feel install",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Branding for native-feel install",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "display_mode_setting",
+    "label": "Display Mode Setting (standalone)",
+    "category": "pwa/7D_manifest_install",
+    "description": "Makes browser chrome disappear",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Makes browser chrome disappear",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "static_asset_cache",
+    "label": "Static Asset Caching",
+    "category": "pwa/7E_offline_caching",
+    "description": "JS/CSS/images cached locally",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "JS/CSS/images cached locally",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "dynamic_data_cache",
+    "label": "Dynamic Data Caching",
+    "category": "pwa/7E_offline_caching",
+    "description": "API responses saved for offline",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "API responses saved for offline",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "background_sync",
+    "label": "Background Sync",
+    "category": "pwa/7E_offline_caching",
+    "description": "Resumes data posting when back online",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Resumes data posting when back online",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "cache_invalidation_rules",
+    "label": "Cache Invalidation Rules",
+    "category": "pwa/7E_offline_caching",
+    "description": "When to refresh local versions",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "When to refresh local versions",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "offline_storage_layer",
+    "label": "IndexedDB / LocalStorage Layer",
+    "category": "pwa/7E_offline_caching",
+    "description": "Stores complex offline state",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Stores complex offline state",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "touch_feedback",
+    "label": "Touch Feedback Animations",
+    "category": "pwa/7F_mobile_ux",
+    "description": "Button tap glow/vibration",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Button tap glow/vibration",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "keyboard_focus_opt",
+    "label": "Mobile Keyboard Focus Optimization",
+    "category": "pwa/7F_mobile_ux",
+    "description": "Input auto-scroll/focus for mobile",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Input auto-scroll/focus for mobile",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "one_hand_ux",
+    "label": "One-Hand UX",
+    "category": "pwa/7F_mobile_ux",
+    "description": "Floating buttons, FABs, back buttons",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Floating buttons, FABs, back buttons",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "native_share_api",
+    "label": "Native Share API",
+    "category": "pwa/7F_mobile_ux",
+    "description": "Mobile share prompt",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Mobile share prompt",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "device_orientation_api",
+    "label": "Device Orientation API",
+    "category": "pwa/7F_mobile_ux",
+    "description": "AR or motion-based UX",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "AR or motion-based UX",
+      "style": "pwa + responsive",
+      "behavior": "device_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH20",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  }
+]
