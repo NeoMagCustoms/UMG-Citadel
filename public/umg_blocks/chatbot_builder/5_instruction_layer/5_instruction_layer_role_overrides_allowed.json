@@ -1,0 +1,40 @@
+{
+  "block_id": "5_instruction_layer_role_overrides_allowed",
+  "label": "Role Overrides Allowed",
+  "category": "chatbot_builder/5_instruction_layer",
+  "description": "Whether instructions can override profession or role",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "BOT",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.91
+  },
+  "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
