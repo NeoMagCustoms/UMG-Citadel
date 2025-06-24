@@ -1,0 +1,1202 @@
+[
+  {
+    "block_id": "30a_prompt_templates_w_variables",
+    "label": "Prompt Templates w/ Variables",
+    "category": "webapp/30_llm",
+    "description": "Format re-usable prompts",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30a_live_prompt_editor_w_preview",
+    "label": "Live Prompt Editor w/ Preview",
+    "category": "webapp/30_llm",
+    "description": "See structure + LLM response",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30a_conditional_prompt_insertion",
+    "label": "Conditional Prompt Insertion",
+    "category": "webapp/30_llm",
+    "description": "Logic-based injection",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30a_prompt_libraries_(publicshared)",
+    "label": "Prompt Libraries (public/shared)",
+    "category": "webapp/30_llm",
+    "description": "Save & reuse top prompts",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30a_markdown_+_json_prompt_structure",
+    "label": "Markdown + JSON Prompt Structure",
+    "category": "webapp/30_llm",
+    "description": "Flexibly encode complex flows",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30b_openai__anthropic__mistral_apis",
+    "label": "OpenAI / Anthropic / Mistral APIs",
+    "category": "webapp/30_llm",
+    "description": "Multi-model support",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30b_model_switcher_dropdown",
+    "label": "Model Switcher Dropdown",
+    "category": "webapp/30_llm",
+    "description": "Change LLM per use-case",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30b_fallback_model_selector",
+    "label": "Fallback Model Selector",
+    "category": "webapp/30_llm",
+    "description": "Retry w/ backup if fail",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30b_streaming_tokens__partial_outputs",
+    "label": "Streaming Tokens / Partial Outputs",
+    "category": "webapp/30_llm",
+    "description": "Real-time response display",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30b_parallel_prompt_executor",
+    "label": "Parallel Prompt Executor",
+    "category": "webapp/30_llm",
+    "description": "Run multiple completions",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30c_multi_agent_choreography_engine",
+    "label": "Multi-Agent Choreography Engine",
+    "category": "webapp/30_llm",
+    "description": "Roles w/ task assignment",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30c_agent_memory_token_binders",
+    "label": "Agent Memory Token Binders",
+    "category": "webapp/30_llm",
+    "description": "Store and retrieve per-agent memory",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30c_memory_slots_+_retrieval_rag_hooks",
+    "label": "Memory Slots + Retrieval RAG Hooks",
+    "category": "webapp/30_llm",
+    "description": "Dynamic context recall",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30c_task_queue_and_replanning_logic",
+    "label": "Task Queue & Replanning Logic",
+    "category": "webapp/30_llm",
+    "description": "Agents reroute when task fails",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30c_long_term_vs_short_term_context_mode",
+    "label": "Long-Term vs Short-Term Context Mode",
+    "category": "webapp/30_llm",
+    "description": "Tiered memory boundaries",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30d_conversation_thread_storage",
+    "label": "Conversation Thread Storage",
+    "category": "webapp/30_llm",
+    "description": "Chronological context retention",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30d_summary_token_compression",
+    "label": "Summary Token Compression",
+    "category": "webapp/30_llm",
+    "description": "Fit large history in limited space",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30d_embedding_search_for_context_recall",
+    "label": "Embedding Search for Context Recall",
+    "category": "webapp/30_llm",
+    "description": "Contextual RAG or vector search",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30d_system_prompt_per_turn",
+    "label": "System Prompt Per Turn",
+    "category": "webapp/30_llm",
+    "description": "Adjusts tone per exchange",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30d_shared_thread_view_(team_ai_use)",
+    "label": "Shared Thread View (Team AI use)",
+    "category": "webapp/30_llm",
+    "description": "Shared chats for groups",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30e_system_persona_prompt_field",
+    "label": "System Persona Prompt Field",
+    "category": "webapp/30_llm",
+    "description": "Defines assistant identity",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30e_memory_aware_role_switching",
+    "label": "Memory-Aware Role Switching",
+    "category": "webapp/30_llm",
+    "description": "Switch personality with context",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30e_instruction_injection_blocks",
+    "label": "Instruction Injection Blocks",
+    "category": "webapp/30_llm",
+    "description": "Guides logic flow",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30e_guardrails_+_allowed_actions",
+    "label": "Guardrails + Allowed Actions",
+    "category": "webapp/30_llm",
+    "description": "Limit what agent can do",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30e_context_aware_tone_adaptation",
+    "label": "Context-Aware Tone Adaptation",
+    "category": "webapp/30_llm",
+    "description": "Style changes based on user data",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30f_token_budget__cost_meter",
+    "label": "Token Budget / Cost Meter",
+    "category": "webapp/30_llm",
+    "description": "Prevent overuse",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30f_rate_limit_scheduling_(api_caps)",
+    "label": "Rate Limit Scheduling (API Caps)",
+    "category": "webapp/30_llm",
+    "description": "Time-based request governance",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30f_max_token_per_prompt_validator",
+    "label": "Max Token Per Prompt Validator",
+    "category": "webapp/30_llm",
+    "description": "Prevent model cutoff",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30f_prompt_sanitizer_(jailbreak_filter)",
+    "label": "Prompt Sanitizer (jailbreak filter)",
+    "category": "webapp/30_llm",
+    "description": "Scrubs malicious or leaking prompts",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "30f_failover_switch_to_local_mode",
+    "label": "Failover Switch to Local Mode",
+    "category": "webapp/30_llm",
+    "description": "Offline or fallback model",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "LLM",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=INTELLIGENT_RESPONSE, DOMAIN=LLM_AGENT_ORCHESTRATION, STYLE=COGNITIVE",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  }
+]
