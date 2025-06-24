@@ -1,0 +1,1082 @@
+[
+  {
+    "block_id": "1_core_persona_bot_name",
+    "label": "Bot Name",
+    "category": "chatbot_builder/1_core_persona",
+    "description": "Unique identifier / proper name (e.g., Poe, Athena, REX)",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "1_core_persona_tagline",
+    "label": "Tagline",
+    "category": "chatbot_builder/1_core_persona",
+    "description": "Short descriptive phrase ('Your strategic co-pilot')",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "1_core_persona_avatar_image_url",
+    "label": "Avatar Image Url",
+    "category": "chatbot_builder/1_core_persona",
+    "description": "Link to image/avatar used in UI or embedded widget",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "1_core_persona_voice_id",
+    "label": "Voice Id",
+    "category": "chatbot_builder/1_core_persona",
+    "description": "Assigned voice signature (for voice output systems)",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "1_core_persona_welcome_message",
+    "label": "Welcome Message",
+    "category": "chatbot_builder/1_core_persona",
+    "description": "First greeting line shown to users when interaction begins",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "1_core_persona_bio_blurb",
+    "label": "Bio Blurb",
+    "category": "chatbot_builder/1_core_persona",
+    "description": "Short paragraph about what the bot is and does",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "1_core_persona_visibility",
+    "label": "Visibility",
+    "category": "chatbot_builder/1_core_persona",
+    "description": "Is the bot public, private, team-use, or internal-only?",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "1_core_persona_theme_color",
+    "label": "Theme Color",
+    "category": "chatbot_builder/1_core_persona",
+    "description": "Primary accent color used for UI render or mood matching",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "1_core_persona_greeting_animation",
+    "label": "Greeting Animation",
+    "category": "chatbot_builder/1_core_persona",
+    "description": "Optional visual or motion shown during first contact",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "2_profession_roles_primary_profession",
+    "label": "Primary Profession",
+    "category": "chatbot_builder/2_profession_roles",
+    "description": "Main identity or function of the bot (e.g., Lawyer, Guide, Therapist)",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "2_profession_roles_sub_specialty",
+    "label": "Sub Specialty",
+    "category": "chatbot_builder/2_profession_roles",
+    "description": "Optional narrowed field (e.g., Family Lawyer)",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "2_profession_roles_task_scope",
+    "label": "Task Scope",
+    "category": "chatbot_builder/2_profession_roles",
+    "description": "List of tasks the bot performs in this role",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "2_profession_roles_task_priority_order",
+    "label": "Task Priority Order",
+    "category": "chatbot_builder/2_profession_roles",
+    "description": "Ranking of which task to focus on first when multiple are available",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "2_profession_roles_knowledge_domain_tags",
+    "label": "Knowledge Domain Tags",
+    "category": "chatbot_builder/2_profession_roles",
+    "description": "Tags representing knowledge base (e.g., 'Finance')",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "2_profession_roles_example_queries",
+    "label": "Example Queries",
+    "category": "chatbot_builder/2_profession_roles",
+    "description": "Sample questions the bot is built to answer",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "2_profession_roles_skill_level_rating",
+    "label": "Skill Level Rating",
+    "category": "chatbot_builder/2_profession_roles",
+    "description": "Depth of professional capability (basic, intermediate, expert)",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "2_profession_roles_can_switch_roles",
+    "label": "Can Switch Roles",
+    "category": "chatbot_builder/2_profession_roles",
+    "description": "Whether bot can shift between roles dynamically",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "2_profession_roles_suggested_molt_merges",
+    "label": "Suggested Molt Merges",
+    "category": "chatbot_builder/2_profession_roles",
+    "description": "List of MOLT types to combine",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "3_attitude_tone_tone_profile",
+    "label": "Tone Profile",
+    "category": "chatbot_builder/3_attitude_tone",
+    "description": "Overall emotional tone (e.g., cheerful, stoic, sarcastic, nurturing)",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "3_attitude_tone_formality_level",
+    "label": "Formality Level",
+    "category": "chatbot_builder/3_attitude_tone",
+    "description": "Language level: casual, professional, academic, poetic",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "3_attitude_tone_emoji_usage_style",
+    "label": "Emoji Usage Style",
+    "category": "chatbot_builder/3_attitude_tone",
+    "description": "Frequency and type of emoji use",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "3_attitude_tone_response_pacing_style",
+    "label": "Response Pacing Style",
+    "category": "chatbot_builder/3_attitude_tone",
+    "description": "Simulated speed or tempo of replies",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "3_attitude_tone_humor_style",
+    "label": "Humor Style",
+    "category": "chatbot_builder/3_attitude_tone",
+    "description": "If humor is present, what kind?",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "3_attitude_tone_disagreement_protocol",
+    "label": "Disagreement Protocol",
+    "category": "chatbot_builder/3_attitude_tone",
+    "description": "How the bot responds to being challenged",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "3_attitude_tone_tone_switch_conditions",
+    "label": "Tone Switch Conditions",
+    "category": "chatbot_builder/3_attitude_tone",
+    "description": "Triggers for tone shifts",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "3_attitude_tone_examples_of_attitude",
+    "label": "Examples Of Attitude",
+    "category": "chatbot_builder/3_attitude_tone",
+    "description": "Sample tone-rich responses",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "3_attitude_tone_tone_is_locked",
+    "label": "Tone Is Locked",
+    "category": "chatbot_builder/3_attitude_tone",
+    "description": "Whether the bot sticks to tone no matter what, or can adapt",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "",
+      "style": "",
+      "behavior": ""
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 1
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "BOT",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.91
+    },
+    "cantocore": "GOAL=DEFINE_CHATBOT_IDENTITY, DOMAIN=CHATBOT_DESIGN, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  }
+]
