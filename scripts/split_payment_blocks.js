@@ -18,6 +18,11 @@ blocks.forEach((block) => {
   ensureDir(targetDir);
 
   const outPath = path.join(targetDir, `${block.block_id}.json`);
+    if (fs.existsSync(outPath)) {
+    console.warn('File already exists, skipping:', outPath);
+    return;
+  }
+
   fs.writeFileSync(outPath, JSON.stringify(block, null, 2));
   console.log('Wrote', outPath);
 });
