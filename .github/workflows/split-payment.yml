@@ -1,0 +1,31 @@
+name: Split Payment Blocks
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - fix/umg-blocks-split
+    paths:
+      - 'scripts/split_payment_blocks.js'
+      - 'incoming_master/category_27_payment_billing_blocks.json'
+
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: fix/umg-blocks-split
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Run split script
+        run: node scripts/split_payment_blocks.js
+      - name: Commit changes
+        run: |
+          git config --global user.email "bot@users.noreply.github.com"
+          git config --global user.name "UMG Split Bot"
+          git add incoming
+          git commit -m "Auto-split payment blocks" || echo "No changes to commit"
+          git push
