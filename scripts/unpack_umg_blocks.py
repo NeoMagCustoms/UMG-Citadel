@@ -29,7 +29,7 @@ def unpack_blocks(dry_run=False):
 
         for block in blocks:
                         if not isinstance(block, dict):
-                print(f"[Skip] Invalid block in {filename}: not a dict.")
+                    print(f"[Skip] Invalid block in {filename}: not a dict.")
                     continue
 
             category_path = block.get("category", "").strip("/")
