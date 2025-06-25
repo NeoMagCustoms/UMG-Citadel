@@ -1158,7 +1158,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "usage_cap_logic",
     "label": "Usage Cap + Top-Off Logic",
