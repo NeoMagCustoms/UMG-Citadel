@@ -1,4 +1,6 @@
 name: Split Payment Blocks
+permissions:
+  contents: write
 
 on:
   workflow_dispatch:
