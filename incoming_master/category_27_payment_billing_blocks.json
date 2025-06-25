@@ -38,7 +38,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "hosted_checkout",
     "label": "Hosted Checkout Pages",
@@ -78,7 +78,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "saved_payment_methods",
     "label": "Saved Payment Methods",
@@ -118,7 +118,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "native_ui_components",
     "label": "Native UI Components",
@@ -198,7 +198,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "subscription_tiers",
     "label": "Subscription Tiers + Trials",
@@ -238,7 +238,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "billing_cycles",
     "label": "Monthly / Annual Billing Modes",
@@ -278,7 +278,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "quantity_plans",
     "label": "Quantity-Based Plans",
@@ -318,7 +318,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "proration_logic",
     "label": "Proration & Mid-Cycle Adjustments",
@@ -358,7 +358,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "usage_metering",
     "label": "Usage Metering Logic",
@@ -398,7 +398,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "pdf_invoice",
     "label": "PDF Invoice Generation",
@@ -438,7 +438,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "line_item_breakdown",
     "label": "Line Item Breakdown",
@@ -478,7 +478,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "vat_support",
     "label": "VAT / GST Support",
@@ -518,7 +518,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "multi_currency",
     "label": "Multi-Currency Handling",
@@ -558,7 +558,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "legal_entity_display",
     "label": "Legal Entity Metadata",
@@ -598,7 +598,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "payment_event_hooks",
     "label": "Payment Success & Failure Hooks",
@@ -638,7 +638,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "subscription_update_hook",
     "label": "Subscription Created/Updated Hook",
@@ -678,7 +678,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "retry_grace_logic",
     "label": "Retry & Grace Period Logic",
@@ -718,7 +718,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "cancel_resume_events",
     "label": "Cancel / Resume Events",
@@ -758,7 +758,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "refund_tracker",
     "label": "Refund Event Tracker",
@@ -798,7 +798,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "pci_secure_handling",
     "label": "PCI-DSS Secure Handling",
@@ -838,7 +838,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "vault_encryption",
     "label": "Encrypted Vault Storage",
@@ -878,7 +878,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "dpa_gdpr_compliant",
     "label": "DPA / GDPR Compliant",
@@ -918,7 +918,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "fraud_checks",
     "label": "Card Validation & Fraud Checks",
@@ -958,7 +958,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "access_audit_trail",
     "label": "Access Audit Trail",
@@ -998,7 +998,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "wallet_balance_system",
     "label": "User Wallet Balance System",
@@ -1038,7 +1038,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "coupon_discount_engine",
     "label": "Coupon & Discount Engine",
@@ -1078,7 +1078,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "referral_program",
     "label": "Referral Credit Program",
@@ -1118,7 +1118,7 @@
       "created_at": "AUTO",
       "edit_log": []
     }
-  },
+  }
   {
     "block_id": "bonus_top_up",
     "label": "Bonus Top-Up Events",
