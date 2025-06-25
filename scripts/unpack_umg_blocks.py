@@ -28,6 +28,10 @@ def unpack_blocks(dry_run=False):
                 continue
 
         for block in blocks:
+                        if not isinstance(block, dict):
+                print(f"[Skip] Invalid block in {filename}: not a dict.")
+                continue
+
             category_path = block.get("category", "").strip("/")
             if not category_path:
                 print(f"Missing category in {filename}, skipping block.")
