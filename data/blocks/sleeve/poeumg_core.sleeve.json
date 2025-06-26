@@ -1,0 +1,26 @@
+{
+  "sleeve_id": "poeumg_core_sleeve",
+  "label": "PoeUMG Core Sleeve",
+  "sleeve_type": "agent",
+  "category": "sleeve/poeumg",
+  "bolt_ready": true,
+  "stacks": [
+    "vault_header",
+    "alignment_block",
+    "philosophy_stack",
+    "overlay_modes"
+  ],
+  "entrypoint": "vault_header",
+  "description": "This sleeve contains the identity, alignment doctrine, philosophy, and overlay configuration for the core PoeUMG agent.",
+  "canto_overlay": {
+    "snap_to": "sleeve_lane",
+    "fit_score": 1.0,
+    "display_hint": "Full persona sleeve for PoeUMG's Genesis agent configuration."
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
