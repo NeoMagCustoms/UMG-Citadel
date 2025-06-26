@@ -1,0 +1,23 @@
+{
+  "block_id": "viewer_memory_compact",
+  "label": "View Compacted Memory",
+  "molt_type": "Viewer",
+  "category": "viewer/log",
+  "bolt_ready": true,
+  "canto_overlay": {
+    "snap_to": "memory_lane",
+    "preferred_context": "longterm",
+    "fit_score": 0.98,
+    "display_hint": "Displays the most recent compressed version of PoeUMG's memory."
+  },
+  "runtime_behavior_flags": {
+    "render_mode": "text_preview",
+    "source_file": "vault/logs/poeumg_memory_compact.txt"
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
