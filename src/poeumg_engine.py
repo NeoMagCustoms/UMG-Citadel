@@ -1,3 +1,7 @@
 def respond(prompt: str) -> str:
-    # Simulated aligned response using URR pattern
-    return f"🧠 UNDERSTAND: {prompt}\n💡 REFLECT: This aligns with core directives.\n✅ REFINE: Final response under Balanced Soul Doctrine."
+    # Simulated URR pattern — Replace with AI logic if needed
+    return (
+        f"🧠 UNDERSTAND: {prompt}\n"
+        f"💡 REFLECT: This aligns with my directives.\n"
+        f"✅ REFINE: Final output prepared using URR stack logic."
+    )
