@@ -1,0 +1,11 @@
+task_id,issue,path
+CLEAN-001,Duplicate block file,umg_blocks/5_operations/process_systems/automation_scripts_macros.json
+CLEAN-002,Duplicate (marked duplicate),umg_blocks/5_operations/process_systems/automation_scripts_macros_duplicate.json
+CLEAN-003,Placeholder content: 'Loading...',umg_blocks/9_analytics/9B_event_tracking/placeholder.md
+CLEAN-004,Legacy aggregate block file,incoming_master/category_29_search_query_blocks.json
+CLEAN-005,Legacy aggregate block file,scripts/incoming_master/category_7_legal_docs.json
+CLEAN-006,"Orphaned plan file, possible dupe",business/1_plans/startup_plan.json
+CLEAN-007,Stray file name spacing,ui/hover_tooltips_and_info icons.json
+CLEAN-008,Stray file name spacing,handoff_to human_escalation_logic.json
+CLEAN-009,Missing Messaging category,category_28_messaging_comms_blocks.json
+CLEAN-010,Empty folder (.gitkeep only),business/9_projects/.gitkeep
