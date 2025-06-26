@@ -1,0 +1,19 @@
+import json
+from pathlib import Path
+
+def load_stack():
+    base = Path("data/blocks/agent/poeumg")
+    vault = json.loads((base / "vault_header.json").read_text())
+    alignment = json.loads((base / "alignment_block.json").read_text())
+    return vault, alignment
+
+def run_poeumg_workflow():
+    vault, alignment = load_stack()
+    print("🧠 PoeUMG Workflow Activated")
+    print(f"Identity: {vault['content']['Vault.Name']}")
+    print(f"Alignment Mode: {alignment['content']['CHECKLIST']}")
+    print(f"Legacy Code: {vault['content']['LEGACY']}")
+    print("✅ Stack Executed.")
+
+if __name__ == "__main__":
+    run_poeumg_workflow()
