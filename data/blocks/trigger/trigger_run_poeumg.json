@@ -1,0 +1,30 @@
+{
+  "block_id": "trigger_run_poeumg",
+  "label": "Run PoeUMG Stack",
+  "category": "trigger",
+  "molt_type": "Trigger",
+  "bolt_ready": true,
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "trigger": {
+    "type": "on_click",
+    "action": "run_workflow",
+    "workflow_file": "run-poeumg-agent.yml",
+    "display_name": "Activate PoeUMG"
+  },
+  "canto_overlay": {
+    "snap_to": "trigger_lane",
+    "preferred_context": "agent_stack",
+    "fit_score": 0.95,
+    "display_hint": "Launches the PoeUMG agent logic via GitHub workflow."
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
