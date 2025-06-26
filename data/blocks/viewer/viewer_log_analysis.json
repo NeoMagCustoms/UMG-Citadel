@@ -1,0 +1,23 @@
+{
+  "block_id": "viewer_log_analysis",
+  "label": "View Log Analysis",
+  "molt_type": "Viewer",
+  "category": "viewer/log",
+  "bolt_ready": true,
+  "canto_overlay": {
+    "snap_to": "memory_lane",
+    "preferred_context": "review",
+    "fit_score": 0.95,
+    "display_hint": "Displays the most recent summary of PoeUMG's memory log."
+  },
+  "runtime_behavior_flags": {
+    "render_mode": "text_preview",
+    "source_file": "vault/logs/poeumg_log_analysis.txt"
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
