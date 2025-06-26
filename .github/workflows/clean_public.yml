@@ -1,0 +1,32 @@
+
+name: Clean Public UMG Blocks
+
+on:
+  workflow_dispatch:
+
+jobs:
+  clean-public:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Run cleaner script
+        run: python scripts/clean_public_blocks.py
+
+      - name: Commit cleanup log and deletions
+        run: |
+          git config user.name "citadel-bot"
+          git config user.email "citadel@automation.com"
+          git add -u public/umg_blocks || true
+          git add public_cleanup_log.txt || true
+          git commit -m "🧹 Deleted migrated public blocks and logged cleanup" || echo "No changes to commit"
+          git push
