@@ -1,0 +1,22 @@
+{
+  "manifest_type": "sleeve_index",
+  "version": "1.0",
+  "maintainer": "Christopher L Haynes",
+  "sleeves": [
+    {
+      "sleeve_id": "poeumg_core_sleeve",
+      "label": "PoeUMG Core Sleeve",
+      "description": "Genesis stack for Poe's identity, alignment, and overlays.",
+      "entrypoint": "vault_header",
+      "status": "active",
+      "path": "data/blocks/sleeve/poeumg_core.sleeve.json"
+    },
+    {
+      "sleeve_id": "public_poe",
+      "label": "PoeUMG Public Mode",
+      "description": "Safe-tone overlay with metaphor disabled and humor active.",
+      "status": "inactive",
+      "path": "data/blocks/sleeve/public_poe.sleeve.json"
+    }
+  ]
+}
