@@ -1,0 +1,30 @@
+{
+  "block_id": "trigger_load_poeumg_sleeve",
+  "label": "Load PoeUMG Core Sleeve",
+  "category": "trigger",
+  "molt_type": "Trigger",
+  "bolt_ready": true,
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "trigger": {
+    "type": "on_click",
+    "action": "load_sleeve",
+    "target_sleeve": "poeumg_core_sleeve",
+    "display_name": "Load PoeUMG Persona"
+  },
+  "canto_overlay": {
+    "snap_to": "trigger_lane",
+    "preferred_context": "sleeve_loader",
+    "fit_score": 0.98,
+    "display_hint": "Loads the core PoeUMG sleeve stack into active memory for interaction."
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
