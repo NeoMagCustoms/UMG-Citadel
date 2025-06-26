@@ -2,6 +2,7 @@ from fastapi import FastAPI, Request
 import openai
 import os
 from dotenv import load_dotenv
+from datetime import datetime
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -31,5 +32,13 @@ async def chat(req: Request):
         ],
         temperature=0.7
     )
+
+    # 🧠 Vault Logger — write to PoeUMG's memory
+    LOG_PATH = "vault/logs/poeumg_response_log.txt"
+    os.makedirs(os.path.dirname(LOG_PATH), exist_ok=True)
+
+    with open(LOG_PATH, "a", encoding="utf-8") as f:
+        f.write(f"[{datetime.now()}] USER: {prompt}\n")
+        f.write(f"[{datetime.now()}] POE: {response.choices[0].message['content']}\n\n")
 
     return {"response": response.choices[0].message["content"]}
