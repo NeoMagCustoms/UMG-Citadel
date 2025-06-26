@@ -11,11 +11,14 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 # Init app
 app = FastAPI()
 
-# Import routers (like log analysis)
+# === Import Routers ===
 from routes import log_route
-app.include_router(log_route.router)
+from routes import compactor_route
 
-# === Chat with PoeUMG ===
+app.include_router(log_route.router)
+app.include_router(compactor_route.router)
+
+# === Chat Route ===
 @app.post("/chat")
 async def chat(req: Request):
     data = await req.json()
@@ -34,13 +37,13 @@ async def chat(req: Request):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            { "role": "system", "content": system_message },
-            { "role": "user", "content": prompt }
+            {"role": "system", "content": system_message},
+            {"role": "user", "content": prompt}
         ],
         temperature=0.7
     )
 
-    # === Log exchange to PoeUMG vault ===
+    # === Log to Vault ===
     LOG_PATH = "vault/logs/poeumg_response_log.txt"
     os.makedirs(os.path.dirname(LOG_PATH), exist_ok=True)
     with open(LOG_PATH, "a", encoding="utf-8") as f:
