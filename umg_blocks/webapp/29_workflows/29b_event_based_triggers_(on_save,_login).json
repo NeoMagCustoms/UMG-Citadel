@@ -1,0 +1,40 @@
+{
+  "block_id": "29b_event_based_triggers_(on_save,_login)",
+  "label": "Event-Based Triggers (on save, login)",
+  "category": "webapp/29_workflows",
+  "description": "Reactive workflows",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "FLOW",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.91
+  },
+  "cantocore": "GOAL=AUTOMATE_AND_CHAIN, DOMAIN=WORKFLOW_BUILDER, STYLE=PROGRAMMATIC",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "block_id": "equity_grant",
+  "label": "Equity Grant Agreement",
+  "category": "business/8_hr/8D_comp_benefits",
+  "description": "Stock options, vesting logic",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Stock options, vesting logic",
+    "style": "modular + structured",
+    "behavior": "documentation_block"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "BIZ",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=DOCUMENT, DOMAIN=BUSINESS, STYLE=FORMAL",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

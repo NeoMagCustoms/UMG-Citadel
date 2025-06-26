@@ -1,0 +1,40 @@
+{
+  "block_id": "touch_gesture_detection",
+  "label": "Touch Gesture Detection",
+  "category": "pwa/7B_device_breakpoints",
+  "description": "Swipe, pinch, long-press support",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Swipe, pinch, long-press support",
+    "style": "pwa + responsive",
+    "behavior": "device_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH20",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=ADAPT, DOMAIN=PWA, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

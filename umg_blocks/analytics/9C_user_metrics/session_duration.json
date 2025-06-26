@@ -1,0 +1,40 @@
+{
+  "block_id": "session_duration",
+  "label": "Session Duration Tracker",
+  "category": "analytics/9C_user_metrics",
+  "description": "Captures active time",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Captures active time",
+    "style": "analytics + modular",
+    "behavior": "tracking_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH22",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=OBSERVE, DOMAIN=ANALYTICS, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

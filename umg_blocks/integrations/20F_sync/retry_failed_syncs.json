@@ -1,0 +1,40 @@
+{
+  "block_id": "retry_failed_syncs",
+  "label": "Retry Failed API Syncs",
+  "category": "integrations/20F_sync",
+  "description": "Auto-resend on error",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Auto-resend on error",
+    "style": "integration + modular",
+    "behavior": "connectivity_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH32",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

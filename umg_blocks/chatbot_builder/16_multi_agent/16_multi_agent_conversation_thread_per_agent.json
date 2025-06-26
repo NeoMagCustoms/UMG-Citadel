@@ -1,0 +1,40 @@
+{
+  "block_id": "16_multi_agent_conversation_thread_per_agent",
+  "label": "Conversation Thread Per Agent",
+  "category": "chatbot_builder/16_multi_agent",
+  "description": "Separate or unified memory",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "BOT",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.92
+  },
+  "cantocore": "GOAL=CONTROL_CHAT_INTERFACE, DOMAIN=CHATBOT_UI, STYLE=COMPONENTIZED",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

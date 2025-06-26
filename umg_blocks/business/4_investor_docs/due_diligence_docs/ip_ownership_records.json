@@ -1,0 +1,47 @@
+{
+  "block_id": "ip_ownership_records",
+  "label": "IP Ownership Records",
+  "category": "investor_docs/due_diligence_docs",
+  "description": "Shows brand, product, and code ownership details",
+  "molt_type": "Instruction",
+  "editable_fields": {
+    "patent_numbers": {
+      "type": "array",
+      "label": "Patent Numbers",
+      "items": {
+        "type": "string"
+      }
+    },
+    "trademark_ids": {
+      "type": "array",
+      "label": "Trademark IDs",
+      "items": {
+        "type": "string"
+      }
+    },
+    "copyright_registrations": {
+      "type": "array",
+      "label": "Copyright Registrations",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "bolt_ready": true,
+  "export_target": ["bolt", "json", "pdf"],
+  "snap_config": {
+    "allowed_parents": ["due_diligence_docs"],
+    "allowed_children": []
+  },
+  "runtime_behavior_flags": {
+    "requires_auth": false
+  },
+  "canto_overlay": {
+    "color": "Yellow"
+  },
+  "ledger": {
+    "version": 1,
+    "created_by": "Magnetar Starheart",
+    "created_at": "2025-06-23"
+  }
+}

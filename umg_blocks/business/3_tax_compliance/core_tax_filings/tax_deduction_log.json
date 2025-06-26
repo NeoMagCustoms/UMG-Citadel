@@ -1,0 +1,27 @@
+{
+  "block_id": "tax_deduction_log",
+  "label": "Tax Deduction Log",
+  "category": "tax_compliance/core_tax_filings",
+  "description": "Tracks deductible expenses including meals, travel, office supplies, and software.",
+  "molt_type": "Instruction",
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [
+      "sales_tax_reports",
+      "annual_tax_return"
+    ]
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO"
+  }
+}

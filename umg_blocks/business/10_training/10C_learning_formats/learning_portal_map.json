@@ -1,0 +1,40 @@
+{
+  "block_id": "learning_portal_map",
+  "label": "Self-Paced Learning Portal Map",
+  "category": "business/10_training/10C_learning_formats",
+  "description": "Architecture for asynchronous learning delivery",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Architecture for asynchronous learning delivery",
+    "style": "modular + structured",
+    "behavior": "documentation_block"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "BIZ",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=DOCUMENT, DOMAIN=BUSINESS, STYLE=FORMAL",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "block_id": "proxy_gateway_hidden_calls",
+  "label": "Proxy Gateway for Hidden Calls",
+  "category": "integrations/20E_secrets",
+  "description": "Prevents frontend exposure",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Prevents frontend exposure",
+    "style": "integration + modular",
+    "behavior": "connectivity_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH32",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

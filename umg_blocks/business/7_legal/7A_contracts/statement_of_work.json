@@ -1,0 +1,40 @@
+{
+  "block_id": "statement_of_work",
+  "label": "Statement of Work (SOW)",
+  "category": "business/7_legal/7A_contracts",
+  "description": "Defines scope, deliverables, deadlines, fees",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Defines scope, deliverables, deadlines, fees",
+    "style": "legal + modular",
+    "behavior": "documentation_block"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "LEG7",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=PROTECT, DOMAIN=LEGAL, STYLE=FORMAL",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

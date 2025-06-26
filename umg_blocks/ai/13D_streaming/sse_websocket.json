@@ -1,0 +1,40 @@
+{
+  "block_id": "sse_websocket",
+  "label": "SSE / WebSocket Streaming",
+  "category": "ai/13D_streaming",
+  "description": "Returns AI responses in realtime",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Returns AI responses in realtime",
+    "style": "ai + modular",
+    "behavior": "intelligent_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH26",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=AUTOMATE, DOMAIN=AI, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "block_id": "industry_trend_report",
+  "label": "Industry Trend Report",
+  "category": "business/6_marketing/research_personas",
+  "description": "Emerging patterns, regulatory threats, tools",
+  "molt_type": "Instruction",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": ["bolt"],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "MKT",
+    "snap_to": ["Primary"],
+    "fit_score": 0.93
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "block_id": "optout_link",
+  "label": "Opt-Out Link Handling",
+  "category": "analytics/9F_consent",
+  "description": "Disables tracking globally",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Disables tracking globally",
+    "style": "analytics + modular",
+    "behavior": "tracking_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH22",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=OBSERVE, DOMAIN=ANALYTICS, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

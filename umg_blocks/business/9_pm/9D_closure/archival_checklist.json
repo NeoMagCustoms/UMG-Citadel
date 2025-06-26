@@ -1,0 +1,40 @@
+{
+  "block_id": "archival_checklist",
+  "label": "Archival Checklist",
+  "category": "business/9_pm/9D_closure",
+  "description": "What to store, where, and in what format",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "What to store, where, and in what format",
+    "style": "modular + structured",
+    "behavior": "documentation_block"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "BIZ",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=DOCUMENT, DOMAIN=BUSINESS, STYLE=FORMAL",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

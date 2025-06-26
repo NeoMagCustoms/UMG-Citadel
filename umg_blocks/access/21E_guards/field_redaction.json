@@ -1,0 +1,40 @@
+{
+  "block_id": "field_redaction",
+  "label": "Field-Level Redaction",
+  "category": "access/21E_guards",
+  "description": "Hide input fields if not allowed",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Hide input fields if not allowed",
+    "style": "access + modular",
+    "behavior": "role_guard_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH33",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=GUARD, DOMAIN=ACCESS, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

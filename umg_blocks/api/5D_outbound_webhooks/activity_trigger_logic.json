@@ -1,0 +1,40 @@
+{
+  "block_id": "activity_trigger_logic",
+  "label": "User Activity Trigger Logic",
+  "category": "api/5D_outbound_webhooks",
+  "description": "Sends POST to partner apps on user action",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Sends POST to partner apps on user action",
+    "style": "api + integration",
+    "behavior": "connectivity_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH18",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=CONNECT, DOMAIN=API, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

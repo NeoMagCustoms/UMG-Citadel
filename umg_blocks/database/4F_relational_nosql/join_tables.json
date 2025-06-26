@@ -1,0 +1,40 @@
+{
+  "block_id": "join_tables",
+  "label": "Join Tables",
+  "category": "database/4F_relational_nosql",
+  "description": "Enables many-to-many (e.g., User-Role)",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Enables many-to-many (e.g., User-Role)",
+    "style": "database + modular",
+    "behavior": "data_modeling"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH17",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=STORE, DOMAIN=DATA, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "block_id": "user_storage_quotas",
+  "label": "Per-User Storage Quotas",
+  "category": "files/19E_security",
+  "description": "Limit file count or size",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Limit file count or size",
+    "style": "media + modular",
+    "behavior": "file_handling"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH31",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=PROCESS, DOMAIN=MEDIA, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

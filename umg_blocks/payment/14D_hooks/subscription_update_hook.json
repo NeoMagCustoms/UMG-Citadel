@@ -1,0 +1,40 @@
+{
+  "block_id": "subscription_update_hook",
+  "label": "Subscription Created/Updated Hook",
+  "category": "payment/14D_hooks",
+  "description": "Adjusts access/features",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Adjusts access/features",
+    "style": "billing + modular",
+    "behavior": "transaction_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH27",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=MONETIZE, DOMAIN=PAYMENT, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

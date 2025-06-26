@@ -1,0 +1,40 @@
+{
+  "block_id": "fake_apis",
+  "label": "Dev-only Fake APIs",
+  "category": "testing/22D_mocks",
+  "description": "Simulated endpoints in dev",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Simulated endpoints in dev",
+    "style": "testing + deploy",
+    "behavior": "qa_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH34",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=VALIDATE, DOMAIN=QA, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "block_id": "oauth_login_flows",
+  "label": "Google / GitHub / Discord Login",
+  "category": "integrations/20B_oauth",
+  "description": "OAuth2 login flows",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "OAuth2 login flows",
+    "style": "integration + modular",
+    "behavior": "connectivity_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH32",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

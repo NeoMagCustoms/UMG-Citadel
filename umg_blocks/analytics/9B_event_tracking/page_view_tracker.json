@@ -1,0 +1,40 @@
+{
+  "block_id": "page_view_tracker",
+  "label": "Page View Tracker",
+  "category": "analytics/9B_event_tracking",
+  "description": "Logs route/view changes",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Logs route/view changes",
+    "style": "analytics + modular",
+    "behavior": "tracking_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH22",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=OBSERVE, DOMAIN=ANALYTICS, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

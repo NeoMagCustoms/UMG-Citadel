@@ -1,0 +1,40 @@
+{
+  "block_id": "27b_trophy_cabinet__badge_showcase",
+  "label": "Trophy Cabinet / Badge Showcase",
+  "category": "webapp/27_gamification",
+  "description": "Display earned honors",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "GAME",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.91
+  },
+  "cantocore": "GOAL=REWARD_ENGAGEMENT, DOMAIN=GAMIFICATION, STYLE=DYNAMIC",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

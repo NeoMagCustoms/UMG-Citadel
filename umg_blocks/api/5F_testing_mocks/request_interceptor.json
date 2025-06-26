@@ -1,0 +1,40 @@
+{
+  "block_id": "request_interceptor",
+  "label": "Request Interceptor (MSW/Nock)",
+  "category": "api/5F_testing_mocks",
+  "description": "Simulates fetch/XHR in tests",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Simulates fetch/XHR in tests",
+    "style": "api + integration",
+    "behavior": "connectivity_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH18",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=CONNECT, DOMAIN=API, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "block_id": "view_containers",
+  "label": "View Containers",
+  "category": "webapp/1A_components_layout",
+  "description": "Route-aware wrappers (DashboardView, PublicView, etc.)",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Route-aware wrappers (DashboardView, PublicView, etc.)",
+    "style": "frontend + modular",
+    "behavior": "ui_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "WEBAPP1",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=RENDER, DOMAIN=FRONTEND, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "block_id": "value_proposition_map",
+  "label": "Value Proposition Map",
+  "category": "business/6_marketing/strategy_positioning",
+  "description": "What problems you solve, for whom, and why it matters",
+  "molt_type": "Instruction",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": ["bolt"],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "MKT",
+    "snap_to": ["Primary"],
+    "fit_score": 0.94
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO"
+  }
+}

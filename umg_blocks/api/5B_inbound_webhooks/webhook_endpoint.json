@@ -1,0 +1,40 @@
+{
+  "block_id": "webhook_endpoint",
+  "label": "Webhook Endpoint Definition",
+  "category": "api/5B_inbound_webhooks",
+  "description": "URL that external service sends to",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "URL that external service sends to",
+    "style": "api + integration",
+    "behavior": "connectivity_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH18",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=CONNECT, DOMAIN=API, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

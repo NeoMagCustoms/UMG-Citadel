@@ -1,0 +1,34 @@
+{
+  "block_id": "franchise_kit_plan",
+  "label": "Franchise Kit Plan",
+  "category": "business/subtypes",
+  "description": "Expansion guide for franchisees",
+  "molt_type": "Primary",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": ["bolt", "pdf"],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true,
+    "is_primary_directive": true
+  },
+  "canto_overlay": {
+    "category_code": "BUS",
+    "snap_to": ["Primary"],
+    "fit_score": 0.92
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

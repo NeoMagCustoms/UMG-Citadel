@@ -1,0 +1,40 @@
+{
+  "block_id": "thinking_delay",
+  "label": "Assistant \u201cThinking\u201d Delay Logic",
+  "category": "ai/13D_streaming",
+  "description": "Simulates delay for UX",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Simulates delay for UX",
+    "style": "ai + modular",
+    "behavior": "intelligent_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH26",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=AUTOMATE, DOMAIN=AI, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "block_id": "28b_all_day_vs_timed_event_option",
+  "label": "All-Day vs Timed Event Option",
+  "category": "webapp/28_calendar",
+  "description": "Granularity of scheduling",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CAL",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.91
+  },
+  "cantocore": "GOAL=SCHEDULE_EVENTS, DOMAIN=TIME_MANAGEMENT, STYLE=CALENDAR_BASED",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}

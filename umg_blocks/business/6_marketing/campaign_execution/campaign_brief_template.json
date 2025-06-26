@@ -1,0 +1,32 @@
+{
+  "block_id": "campaign_brief_template",
+  "label": "Campaign Brief Template",
+  "category": "business/6_marketing/campaign_execution",
+  "description": "Goal, audience, offer, channel, CTA",
+  "molt_type": "Instruction",
+  "editable_fields": {
+    "content": "",
+    "style": "",
+    "behavior": ""
+  },
+  "bolt_ready": true,
+  "export_target": ["bolt"],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "MKT",
+    "snap_to": ["Primary"],
+    "fit_score": 0.93
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO"
+  }
+}

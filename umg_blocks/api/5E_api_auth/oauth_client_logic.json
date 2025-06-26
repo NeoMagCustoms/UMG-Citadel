@@ -1,0 +1,40 @@
+{
+  "block_id": "oauth_client_logic",
+  "label": "OAuth Client Logic",
+  "category": "api/5E_api_auth",
+  "description": "Access tokens for Google, GitHub, etc.",
+  "molt_type": "Subject",
+  "editable_fields": {
+    "content": "Access tokens for Google, GitHub, etc.",
+    "style": "api + integration",
+    "behavior": "connectivity_logic"
+  },
+  "bolt_ready": true,
+  "export_target": [
+    "bolt",
+    "pdf"
+  ],
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 4
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "canto_overlay": {
+    "category_code": "CH18",
+    "snap_to": [
+      "Primary"
+    ],
+    "fit_score": 0.95
+  },
+  "cantocore": "GOAL=CONNECT, DOMAIN=API, STYLE=MODULAR",
+  "code_modules": [],
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
