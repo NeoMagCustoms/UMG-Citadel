@@ -1,0 +1,25 @@
+name: Move JSON Aggregates from Archive
+
+on:
+  workflow_dispatch:
+
+jobs:
+  move-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Move files from archive_master to incoming_master
+        run: |
+          mkdir -p incoming_master
+          mv incoming_master/archive_master/*.json incoming_master/ || echo "No files to move"
+
+      - name: Commit & push moved files
+        run: |
+          git config --global user.name "NeoMagCustoms"
+          git config --global user.email "actions@github.com"
+          git add incoming_master/*
+          git rm incoming_master/archive_master/*.json || echo "Nothing to delete"
+          git commit -m "Moved aggregates from archive_master to trigger unpack" || echo "No changes to commit"
+          git push
