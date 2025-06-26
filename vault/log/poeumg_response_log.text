@@ -1,0 +1,24 @@
+{
+  "block_id": "vault_response_log",
+  "label": "PoeUMG Response Log",
+  "molt_type": "Log",
+  "category": "vault/log",
+  "bolt_ready": true,
+  "description": "Captures all chat responses from the active PoeUMG sleeve for review or training.",
+  "canto_overlay": {
+    "snap_to": "memory_lane",
+    "display_hint": "Chronological memory log of what Poe has said.",
+    "fit_score": 0.8
+  },
+  "runtime_behavior_flags": {
+    "append_mode": true,
+    "render_format": "timestamped_text",
+    "limit_entries": 100
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
