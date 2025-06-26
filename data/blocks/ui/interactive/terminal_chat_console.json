@@ -1,0 +1,32 @@
+{
+  "block_id": "terminal_chat_console",
+  "label": "Talk to PoeUMG",
+  "molt_type": "Interface",
+  "category": "ui/interactive",
+  "bolt_ready": true,
+  "canto_overlay": {
+    "snap_to": "terminal_lane",
+    "preferred_context": "agent_comms",
+    "fit_score": 0.99,
+    "display_hint": "Direct message interface to PoeUMG"
+  },
+  "runtime_behavior_flags": {
+    "interactive_mode": true,
+    "input_field": "text",
+    "action": {
+      "type": "call_endpoint",
+      "endpoint": "/chat",
+      "method": "POST",
+      "inject_payload": {
+        "prompt": "$user_input"
+      }
+    },
+    "render_output_as": "conversation_bubble"
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
