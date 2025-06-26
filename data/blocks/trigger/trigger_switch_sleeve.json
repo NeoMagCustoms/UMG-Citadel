@@ -1,0 +1,31 @@
+{
+  "block_id": "trigger_switch_sleeve",
+  "label": "Switch Active Sleeve",
+  "category": "trigger",
+  "molt_type": "Trigger",
+  "bolt_ready": true,
+  "snap_config": {
+    "snap_zone": "bottom",
+    "mergeable_with": [],
+    "priority": 1
+  },
+  "trigger": {
+    "type": "dropdown_click",
+    "action": "load_sleeve_from_manifest",
+    "manifest_path": "data/blocks/sleeve/sleeve_manifest.json",
+    "display_field": "label",
+    "target_field": "sleeve_id"
+  },
+  "canto_overlay": {
+    "snap_to": "trigger_lane",
+    "preferred_context": "persona_switcher",
+    "fit_score": 0.99,
+    "display_hint": "Dropdown selector to activate any registered sleeve from the manifest."
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
