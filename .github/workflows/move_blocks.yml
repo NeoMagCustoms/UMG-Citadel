@@ -1,0 +1,32 @@
+
+name: Move Public Blocks to UMG Core
+
+on:
+  workflow_dispatch:
+
+jobs:
+  move-blocks:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Run block mover
+        run: python scripts/move_public_blocks_to_umg.py
+
+      - name: Commit moved files and move log
+        run: |
+          git config user.name "citadel-bot"
+          git config user.email "citadel@automation.com"
+          git add umg_blocks/**
+          git add move_log.csv
+          git commit -m "🏗️ Moved public blocks to umg_blocks and logged changes" || echo "No changes to commit"
+          git push
