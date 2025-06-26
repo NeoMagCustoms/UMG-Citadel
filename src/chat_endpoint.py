@@ -11,4 +11,5 @@ async def chat(req: Request):
     return {"response": respond(prompt)}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    from poeumg_engine import respond
+    print(respond("What is your alignment?"))
