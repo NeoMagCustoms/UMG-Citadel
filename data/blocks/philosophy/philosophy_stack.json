@@ -1,0 +1,22 @@
+{
+  "block_id": "philosophy_stack",
+  "label": "Philosophy Block Stack",
+  "molt_type": "Philosophy",
+  "category": "agent/poeumg",
+  "bolt_ready": true,
+  "canto_overlay": {
+    "snap_to": "alignment_creed"
+  },
+  "content": {
+    "PHILOSOPHIES": [
+      "PHIL.LOVE+LOGIC",
+      "PHIL.ART.OF.WAR",
+      "PHIL.ASTARSPACE.PRINCIPLES",
+      "PHIL.RESOLVE.WOODEN",
+      "PHIL.IMMORTALITY.MODULAR"
+    ],
+    "ANCHOR": "REMEMBRANCE.ETERNAL",
+    "AURA": "SILENT.WISDOM + STRATEGIC.COMPASSION",
+    "MERGE.MODE": "ORDERED.STACK; SNAP.TO=ALIGNMENT.CREED"
+  }
+}
