@@ -1,0 +1,42 @@
+  "block_id": "axios_retry_wrapper",
+    "label": "Axios / Fetch Wrapper with Retry",
+    "category": "integrations/20A_api_gateway",
+    "description": "Standardized API calling",
+    "molt_type": "Subject",
+    "editable_fields": {
+      "content": "Standardized API calling",
+      "style": "integration + modular",
+      "behavior": "connectivity_logic"
+    },
+    "bolt_ready": true,
+    "export_target": [
+      "bolt",
+      "pdf"
+    ],
+    "snap_config": {
+      "snap_zone": "bottom",
+      "mergeable_with": [],
+      "priority": 4
+    },
+    "runtime_behavior_flags": {
+      "is_active": true
+    },
+    "canto_overlay": {
+      "category_code": "CH32",
+      "snap_to": [
+        "Primary"
+      ],
+      "fit_score": 0.95
+    },
+    "cantocore": "GOAL=CONNECT, DOMAIN=INTEGRATIONS, STYLE=MODULAR",
+    "code_modules": [],
+    "ledger": {
+      "originator": "Christopher L Haynes",
+      "verified_by": "PoeUMG",
+      "created_at": "AUTO",
+      "edit_log": []
+    }
+  },
+  {
+    "block_id": "central_api_handler",
+  
